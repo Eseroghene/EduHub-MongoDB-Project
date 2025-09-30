@@ -58,7 +58,7 @@ pip install -r requirements.txt
 requirements.txt:
 pymongo>=4.5.0
 pandas>=2.0.0
-jupyter>=1.0.0
+jupyter>=7.0.0
 ```
 ### Step 3: Start MongoDB  
 
@@ -251,7 +251,7 @@ mongodb-eduhub-project/
 ├── README.md                          
 ├── requirements.txt                   
 ├── .gitignore                        
-├── LICENSE                           
+│                        
 │
 ├── notebooks/
 │   └── eduhub_mongodb_project.ipynb  
