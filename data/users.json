@@ -1,367 +1,354 @@
 [
     {
         "userId": "INST001",
-        "email": "ucastaneda@example.org",
+        "email": "jonesmichael@example.com",
         "firstName": "David",
-        "lastName": "Mcconnell",
+        "lastName": "Lozano",
         "role": "instructor",
-        "dateJoined": "2024-07-03 23:28:37.719276",
+        "dateJoined": "2024-01-09 15:46:56.528419",
         "profile": {
-            "bio": "Loves mentoring students in cloud technologies and DevOps.",
-            "avatar": "https://dummyimage.com/27x740",
+            "bio": "Focused on modern web development with React and Node.js.",
+            "avatar": "https://placekitten.com/252/694",
             "skills": [
-                "Machine Learning",
-                "Web Development",
+                "React",
                 "Python",
-                "AI",
-                "JavaScript"
+                "AI"
             ]
         },
-        "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbee"
+        "isActive": true,
+        "_id": "68dd29b86d363f5fda7cfca2"
     },
     {
         "userId": "INST002",
-        "email": "creed@example.com",
-        "firstName": "Melanie",
-        "lastName": "Payne",
+        "email": "tiffanyjoyce@example.org",
+        "firstName": "Christine",
+        "lastName": "Rhodes",
         "role": "instructor",
-        "dateJoined": "2023-11-20 16:28:07.936639",
+        "dateJoined": "2024-03-05 09:03:44.709728",
         "profile": {
-            "bio": "Expert in AI and Data Science with 10+ years of experience.",
-            "avatar": "https://placekitten.com/718/801",
+            "bio": "Loves mentoring students in cloud technologies and DevOps.",
+            "avatar": "https://picsum.photos/28/347",
             "skills": [
                 "React",
+                "Cloud Computing",
                 "DevOps",
-                "JavaScript",
-                "Machine Learning"
+                "Python"
             ]
         },
         "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbef"
+        "_id": "68dd29b86d363f5fda7cfca3"
     },
     {
         "userId": "INST003",
-        "email": "kelly45@example.com",
-        "firstName": "Jeffrey",
-        "lastName": "Smith",
+        "email": "hollymorgan@example.org",
+        "firstName": "Dana",
+        "lastName": "Reid",
         "role": "instructor",
-        "dateJoined": "2023-10-30 17:39:23.435686",
+        "dateJoined": "2023-12-05 04:50:54.438546",
         "profile": {
             "bio": "Expert in AI and Data Science with 10+ years of experience.",
-            "avatar": "https://dummyimage.com/626x830",
+            "avatar": "https://placekitten.com/20/909",
             "skills": [
-                "AI",
+                "Web Development",
+                "Machine Learning",
                 "DevOps",
-                "Data Science",
-                "Node.js",
-                "Cloud Computing"
+                "JavaScript",
+                "Node.js"
             ]
         },
-        "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbf0"
+        "isActive": true,
+        "_id": "68dd29b86d363f5fda7cfca4"
     },
     {
         "userId": "INST004",
-        "email": "dcarlson@example.org",
-        "firstName": "Brittney",
-        "lastName": "Abbott",
+        "email": "phernandez@example.net",
+        "firstName": "Alicia",
+        "lastName": "Lewis",
         "role": "instructor",
-        "dateJoined": "2024-02-10 08:09:22.067563",
+        "dateJoined": "2023-10-15 21:34:57.603739",
         "profile": {
-            "bio": "Loves mentoring students in cloud technologies and DevOps.",
-            "avatar": "https://placekitten.com/393/118",
-            "skills": [
-                "Web Development",
-                "Data Science",
-                "Node.js",
-                "DevOps",
-                "Cloud Computing"
-            ]
-        },
-        "isActive": true,
-        "_id": "68dc92276d363f5fda7cfbf1"
-    },
-    {
-        "userId": "INST005",
-        "email": "john04@example.org",
-        "firstName": "Jessica",
-        "lastName": "Nicholson",
-        "role": "instructor",
-        "dateJoined": "2024-09-01 02:19:35.894229",
-        "profile": {
-            "bio": "Passionate about teaching Python and building scalable systems.",
-            "avatar": "https://placekitten.com/525/309",
+            "bio": "Dedicated to simplifying Machine Learning concepts for everyone.",
+            "avatar": "https://placekitten.com/774/456",
             "skills": [
                 "Cloud Computing",
-                "Node.js",
-                "React"
-            ]
-        },
-        "isActive": true,
-        "_id": "68dc92276d363f5fda7cfbf2"
-    },
-    {
-        "userId": "STU001",
-        "email": "mosstara@example.net",
-        "firstName": "Melissa",
-        "lastName": "Powell",
-        "role": "student",
-        "dateJoined": "2024-11-09 06:37:22.611692",
-        "profile": {
-            "bio": "Aspiring data analyst passionate about turning numbers into insights.",
-            "avatar": "https://placekitten.com/580/968",
-            "skills": [
-                "Data Science",
-                "Cloud Computing",
-                "JavaScript"
-            ]
-        },
-        "isActive": true,
-        "_id": "68dc92276d363f5fda7cfbf3"
-    },
-    {
-        "userId": "STU002",
-        "email": "carolynjohnson@example.com",
-        "firstName": "Stephanie",
-        "lastName": "Miller",
-        "role": "student",
-        "dateJoined": "2025-01-28 23:53:00.965705",
-        "profile": {
-            "bio": "Eager to learn new skills in data science and business intelligence.",
-            "avatar": "https://picsum.photos/173/934",
-            "skills": [
-                "Python",
+                "AI",
                 "Machine Learning"
             ]
         },
-        "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbf4"
-    },
-    {
-        "userId": "STU003",
-        "email": "mercersusan@example.org",
-        "firstName": "Alexandra",
-        "lastName": "Carr",
-        "role": "student",
-        "dateJoined": "2025-07-01 08:11:27.528542",
-        "profile": {
-            "bio": "Exploring career opportunities in technology and analytics.",
-            "avatar": "https://dummyimage.com/40x730",
-            "skills": [
-                "Data Science"
-            ]
-        },
         "isActive": true,
-        "_id": "68dc92276d363f5fda7cfbf5"
+        "_id": "68dd29b86d363f5fda7cfca5"
     },
     {
-        "userId": "STU004",
-        "email": "rwhite@example.org",
-        "firstName": "Amy",
-        "lastName": "Walton",
-        "role": "student",
-        "dateJoined": "2025-02-12 06:37:20.206384",
+        "userId": "INST005",
+        "email": "ubruce@example.org",
+        "firstName": "Cynthia",
+        "lastName": "Kramer",
+        "role": "instructor",
+        "dateJoined": "2023-10-03 08:14:45.933986",
         "profile": {
-            "bio": "Building strong foundations in statistics and data visualization.",
-            "avatar": "https://dummyimage.com/830x411",
-            "skills": [
-                "Python",
-                "Node.js",
-                "Web Development"
-            ]
-        },
-        "isActive": true,
-        "_id": "68dc92276d363f5fda7cfbf6"
-    },
-    {
-        "userId": "STU005",
-        "email": "samantha16@example.com",
-        "firstName": "Sydney",
-        "lastName": "Guerrero",
-        "role": "student",
-        "dateJoined": "2024-10-12 05:16:10.628656",
-        "profile": {
-            "bio": "Passionate about mathematics and applying it in real-world projects.",
-            "avatar": "https://dummyimage.com/393x637",
-            "skills": []
-        },
-        "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbf7"
-    },
-    {
-        "userId": "STU006",
-        "email": "richardphillips@example.com",
-        "firstName": "Thomas",
-        "lastName": "Ingram",
-        "role": "student",
-        "dateJoined": "2025-04-22 02:56:30.517555",
-        "profile": {
-            "bio": "Excited about solving problems with Python and SQL.",
-            "avatar": "https://dummyimage.com/1004x420",
+            "bio": "Loves mentoring students in cloud technologies and DevOps.",
+            "avatar": "https://picsum.photos/110/557",
             "skills": [
                 "Cloud Computing",
-                "Data Science",
+                "React",
+                "Python"
+            ]
+        },
+        "isActive": false,
+        "_id": "68dd29b86d363f5fda7cfca6"
+    },
+    {
+        "userId": "STU001",
+        "email": "pricetommy@example.com",
+        "firstName": "Michael",
+        "lastName": "Duffy",
+        "role": "student",
+        "dateJoined": "2024-12-01 20:06:39.777238",
+        "profile": {
+            "bio": "Passionate about mathematics and applying it in real-world projects.",
+            "avatar": "https://picsum.photos/889/317",
+            "skills": [
+                "Python",
                 "DevOps"
             ]
         },
         "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbf8"
+        "_id": "68dd29b86d363f5fda7cfca7"
     },
     {
-        "userId": "STU007",
-        "email": "msteele@example.org",
-        "firstName": "Brandy",
-        "lastName": "Garrett",
+        "userId": "STU002",
+        "email": "diana78@example.net",
+        "firstName": "Megan",
+        "lastName": "Gaines",
         "role": "student",
-        "dateJoined": "2025-01-30 08:54:11.555064",
-        "profile": {
-            "bio": "Interested in web development and improving coding skills.",
-            "avatar": "https://dummyimage.com/987x133",
-            "skills": [
-                "Machine Learning",
-                "React"
-            ]
-        },
-        "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbf9"
-    },
-    {
-        "userId": "STU008",
-        "email": "ulane@example.org",
-        "firstName": "Katie",
-        "lastName": "Snow",
-        "role": "student",
-        "dateJoined": "2025-09-01 12:15:09.693321",
-        "profile": {
-            "bio": "Aspiring data analyst passionate about turning numbers into insights.",
-            "avatar": "https://picsum.photos/339/46",
-            "skills": [
-                "React",
-                "JavaScript"
-            ]
-        },
-        "isActive": true,
-        "_id": "68dc92276d363f5fda7cfbfa"
-    },
-    {
-        "userId": "STU009",
-        "email": "wgeorge@example.org",
-        "firstName": "Elizabeth",
-        "lastName": "Kim",
-        "role": "student",
-        "dateJoined": "2024-10-12 01:30:34.596037",
-        "profile": {
-            "bio": "Interested in web development and improving coding skills.",
-            "avatar": "https://picsum.photos/847/501",
-            "skills": [
-                "DevOps",
-                "Machine Learning",
-                "React"
-            ]
-        },
-        "isActive": true,
-        "_id": "68dc92276d363f5fda7cfbfb"
-    },
-    {
-        "userId": "STU010",
-        "email": "iherman@example.net",
-        "firstName": "Cathy",
-        "lastName": "White",
-        "role": "student",
-        "dateJoined": "2024-11-04 14:59:08.322595",
-        "profile": {
-            "bio": "Focused on improving programming and problem-solving skills.",
-            "avatar": "https://dummyimage.com/964x914",
-            "skills": [
-                "Node.js",
-                "Machine Learning"
-            ]
-        },
-        "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbfc"
-    },
-    {
-        "userId": "STU011",
-        "email": "wlewis@example.org",
-        "firstName": "Ashley",
-        "lastName": "Daniel",
-        "role": "student",
-        "dateJoined": "2025-05-06 20:08:25.162174",
-        "profile": {
-            "bio": "Excited about solving problems with Python and SQL.",
-            "avatar": "https://dummyimage.com/867x843",
-            "skills": []
-        },
-        "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbfd"
-    },
-    {
-        "userId": "STU012",
-        "email": "csutton@example.org",
-        "firstName": "Caitlin",
-        "lastName": "Cruz",
-        "role": "student",
-        "dateJoined": "2024-10-28 23:28:34.296426",
-        "profile": {
-            "bio": "Interested in web development and improving coding skills.",
-            "avatar": "https://picsum.photos/788/575",
-            "skills": [
-                "Data Science",
-                "Node.js",
-                "JavaScript"
-            ]
-        },
-        "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbfe"
-    },
-    {
-        "userId": "STU013",
-        "email": "chanjames@example.org",
-        "firstName": "Carolyn",
-        "lastName": "Singh",
-        "role": "student",
-        "dateJoined": "2025-02-05 14:05:34.976935",
+        "dateJoined": "2024-10-21 23:52:19.546508",
         "profile": {
             "bio": "Curious about cloud computing and modern tech tools.",
-            "avatar": "https://picsum.photos/793/42",
+            "avatar": "https://picsum.photos/248/263",
+            "skills": [
+                "DevOps"
+            ]
+        },
+        "isActive": false,
+        "_id": "68dd29b86d363f5fda7cfca8"
+    },
+    {
+        "userId": "STU003",
+        "email": "jason87@example.org",
+        "firstName": "James",
+        "lastName": "Ingram",
+        "role": "student",
+        "dateJoined": "2025-05-19 02:27:34.501771",
+        "profile": {
+            "bio": "Interested in web development and improving coding skills.",
+            "avatar": "https://dummyimage.com/291x501",
             "skills": []
         },
         "isActive": false,
-        "_id": "68dc92276d363f5fda7cfbff"
+        "_id": "68dd29b86d363f5fda7cfca9"
     },
     {
-        "userId": "STU014",
-        "email": "wbrewer@example.org",
-        "firstName": "Cameron",
-        "lastName": "Doyle",
+        "userId": "STU004",
+        "email": "warerickey@example.com",
+        "firstName": "Billy",
+        "lastName": "Le",
         "role": "student",
-        "dateJoined": "2025-09-27 12:22:30.688083",
+        "dateJoined": "2025-08-03 21:36:47.261132",
         "profile": {
-            "bio": "Focused on improving programming and problem-solving skills.",
-            "avatar": "https://picsum.photos/506/724",
+            "bio": "Excited about solving problems with Python and SQL.",
+            "avatar": "https://placekitten.com/293/330",
             "skills": [
+                "Machine Learning",
                 "Cloud Computing"
             ]
         },
         "isActive": false,
-        "_id": "68dc92276d363f5fda7cfc00"
+        "_id": "68dd29b86d363f5fda7cfcaa"
     },
     {
-        "userId": "STU015",
-        "email": "mccarthyryan@example.org",
-        "firstName": "Michael",
-        "lastName": "Collins",
+        "userId": "STU005",
+        "email": "reillyjohn@example.org",
+        "firstName": "Richard",
+        "lastName": "Thompson",
         "role": "student",
-        "dateJoined": "2024-11-30 04:17:22.642739",
+        "dateJoined": "2025-02-24 12:18:05.584920",
         "profile": {
-            "bio": "Aspiring data analyst passionate about turning numbers into insights.",
-            "avatar": "https://placekitten.com/578/804",
+            "bio": "Interested in web development and improving coding skills.",
+            "avatar": "https://dummyimage.com/0x902",
             "skills": [
-                "Python"
+                "Node.js"
             ]
         },
         "isActive": true,
-        "_id": "68dc92276d363f5fda7cfc01"
+        "_id": "68dd29b86d363f5fda7cfcab"
+    },
+    {
+        "userId": "STU006",
+        "email": "vangbrian@example.com",
+        "firstName": "Michael",
+        "lastName": "Craig",
+        "role": "student",
+        "dateJoined": "2024-11-07 18:13:35.898755",
+        "profile": {
+            "bio": "Building strong foundations in statistics and data visualization.",
+            "avatar": "https://dummyimage.com/486x711",
+            "skills": [
+                "JavaScript"
+            ]
+        },
+        "isActive": false,
+        "_id": "68dd29b86d363f5fda7cfcac"
+    },
+    {
+        "userId": "STU007",
+        "email": "chall@example.org",
+        "firstName": "James",
+        "lastName": "Martinez",
+        "role": "student",
+        "dateJoined": "2025-02-05 14:53:15.017424",
+        "profile": {
+            "bio": "Motivated learner exploring AI and machine learning concepts.",
+            "avatar": "https://picsum.photos/245/1020",
+            "skills": []
+        },
+        "isActive": true,
+        "_id": "68dd29b86d363f5fda7cfcad"
+    },
+    {
+        "userId": "STU008",
+        "email": "egarcia@example.org",
+        "firstName": "Allen",
+        "lastName": "Hill",
+        "role": "student",
+        "dateJoined": "2025-06-18 15:32:24.521285",
+        "profile": {
+            "bio": "Interested in web development and improving coding skills.",
+            "avatar": "https://placekitten.com/969/429",
+            "skills": []
+        },
+        "isActive": true,
+        "_id": "68dd29b86d363f5fda7cfcae"
+    },
+    {
+        "userId": "STU009",
+        "email": "rgrimes@example.com",
+        "firstName": "John",
+        "lastName": "Anderson",
+        "role": "student",
+        "dateJoined": "2025-02-20 01:53:14.427107",
+        "profile": {
+            "bio": "Passionate about mathematics and applying it in real-world projects.",
+            "avatar": "https://picsum.photos/473/625",
+            "skills": [
+                "React"
+            ]
+        },
+        "isActive": true,
+        "_id": "68dd29b86d363f5fda7cfcaf"
+    },
+    {
+        "userId": "STU010",
+        "email": "mjones@example.net",
+        "firstName": "Jacqueline",
+        "lastName": "Allen",
+        "role": "student",
+        "dateJoined": "2025-07-20 22:25:38.536119",
+        "profile": {
+            "bio": "Motivated learner exploring AI and machine learning concepts.",
+            "avatar": "https://placekitten.com/764/77",
+            "skills": [
+                "AI",
+                "DevOps",
+                "Cloud Computing"
+            ]
+        },
+        "isActive": false,
+        "_id": "68dd29b86d363f5fda7cfcb0"
+    },
+    {
+        "userId": "STU011",
+        "email": "kennethjackson@example.org",
+        "firstName": "Phillip",
+        "lastName": "Lyons",
+        "role": "student",
+        "dateJoined": "2024-11-15 06:14:33.997964",
+        "profile": {
+            "bio": "Building strong foundations in statistics and data visualization.",
+            "avatar": "https://picsum.photos/857/875",
+            "skills": []
+        },
+        "isActive": false,
+        "_id": "68dd29b86d363f5fda7cfcb1"
+    },
+    {
+        "userId": "STU012",
+        "email": "qmartin@example.net",
+        "firstName": "Jenna",
+        "lastName": "Garrett",
+        "role": "student",
+        "dateJoined": "2025-09-20 08:26:55.974961",
+        "profile": {
+            "bio": "Interested in web development and improving coding skills.",
+            "avatar": "https://picsum.photos/323/417",
+            "skills": [
+                "Python",
+                "DevOps",
+                "Web Development"
+            ]
+        },
+        "isActive": false,
+        "_id": "68dd29b86d363f5fda7cfcb2"
+    },
+    {
+        "userId": "STU013",
+        "email": "sylviabarrett@example.com",
+        "firstName": "Samantha",
+        "lastName": "Carr",
+        "role": "student",
+        "dateJoined": "2024-12-24 12:34:51.038557",
+        "profile": {
+            "bio": "Curious about cloud computing and modern tech tools.",
+            "avatar": "https://dummyimage.com/248x652",
+            "skills": [
+                "Node.js",
+                "Web Development",
+                "DevOps"
+            ]
+        },
+        "isActive": true,
+        "_id": "68dd29b86d363f5fda7cfcb3"
+    },
+    {
+        "userId": "STU014",
+        "email": "rebeccastout@example.com",
+        "firstName": "Allison",
+        "lastName": "Warren",
+        "role": "student",
+        "dateJoined": "2024-11-10 16:02:31.338073",
+        "profile": {
+            "bio": "Focused on improving programming and problem-solving skills.",
+            "avatar": "https://dummyimage.com/663x9",
+            "skills": []
+        },
+        "isActive": true,
+        "_id": "68dd29b86d363f5fda7cfcb4"
+    },
+    {
+        "userId": "STU015",
+        "email": "mccoychristina@example.net",
+        "firstName": "Ethan",
+        "lastName": "Sullivan",
+        "role": "student",
+        "dateJoined": "2025-08-09 11:44:37.733201",
+        "profile": {
+            "bio": "Building strong foundations in statistics and data visualization.",
+            "avatar": "https://dummyimage.com/521x42",
+            "skills": [
+                "Data Science",
+                "Node.js"
+            ]
+        },
+        "isActive": true,
+        "_id": "68dd29b86d363f5fda7cfcb5"
     }
 ]
