@@ -1,0 +1,154 @@
+[
+    {
+        "courseId": "CRS001",
+        "title": "Machine Learning for Beginners",
+        "description": "Master Python libraries such as Pandas, NumPy, and Matplotlib for real-world data tasks.",
+        "instructorId": "INST001",
+        "category": "Data Science",
+        "level": "intermediate",
+        "duration": 77,
+        "price": 97.46,
+        "tags": [
+            "machinelearning",
+            "ai",
+            "statistics"
+        ],
+        "createdAt": "2025-04-15 03:30:04.354933",
+        "updatedAt": "2025-10-01 03:30:04.354950",
+        "isPublished": true,
+        "_id": "68dc922c6d363f5fda7cfc02"
+    },
+    {
+        "courseId": "CRS002",
+        "title": "Introduction to Data Science",
+        "description": "Understand supervised and unsupervised learning with practical machine learning examples.",
+        "instructorId": "INST004",
+        "category": "Data Science",
+        "level": "beginner",
+        "duration": 14,
+        "price": 23.18,
+        "tags": [
+            "visualization",
+            "modeling",
+            "pandas"
+        ],
+        "createdAt": "2024-12-07 03:30:04.354968",
+        "updatedAt": "2025-10-01 03:30:04.354973",
+        "isPublished": false,
+        "_id": "68dc922c6d363f5fda7cfc03"
+    },
+    {
+        "courseId": "CRS003",
+        "title": "Machine Learning for Beginners",
+        "description": "Master Python libraries such as Pandas, NumPy, and Matplotlib for real-world data tasks.",
+        "instructorId": "INST005",
+        "category": "Data Science",
+        "level": "intermediate",
+        "duration": 77,
+        "price": 105.31,
+        "tags": [
+            "visualization",
+            "modeling",
+            "pandas"
+        ],
+        "createdAt": "2024-11-22 03:30:04.354983",
+        "updatedAt": "2025-10-01 03:30:04.354985",
+        "isPublished": false,
+        "_id": "68dc922c6d363f5fda7cfc04"
+    },
+    {
+        "courseId": "CRS004",
+        "title": "Backend Development with Node.js",
+        "description": "Build responsive user interfaces using React and modern JavaScript tools.",
+        "instructorId": "INST001",
+        "category": "Web Development",
+        "level": "advanced",
+        "duration": 30,
+        "price": 34.73,
+        "tags": [
+            "fullstack",
+            "webdev",
+            "coding"
+        ],
+        "createdAt": "2025-01-15 03:30:04.354992",
+        "updatedAt": "2025-10-01 03:30:04.354995",
+        "isPublished": true,
+        "_id": "68dc922c6d363f5fda7cfc05"
+    },
+    {
+        "courseId": "CRS005",
+        "title": "Python for Data Analysis",
+        "description": "Master Python libraries such as Pandas, NumPy, and Matplotlib for real-world data tasks.",
+        "instructorId": "INST005",
+        "category": "Data Science",
+        "level": "beginner",
+        "duration": 28,
+        "price": 164.67,
+        "tags": [
+            "data",
+            "python",
+            "analytics"
+        ],
+        "createdAt": "2025-02-26 03:30:04.355001",
+        "updatedAt": "2025-10-01 03:30:04.355003",
+        "isPublished": true,
+        "_id": "68dc922c6d363f5fda7cfc06"
+    },
+    {
+        "courseId": "CRS006",
+        "title": "Frontend Development with React",
+        "description": "Learn backend principles, APIs, and server management with Node.js and Express.",
+        "instructorId": "INST003",
+        "category": "Web Development",
+        "level": "beginner",
+        "duration": 70,
+        "price": 25.78,
+        "tags": [
+            "fullstack",
+            "webdev",
+            "coding"
+        ],
+        "createdAt": "2025-04-02 03:30:04.355009",
+        "updatedAt": "2025-10-01 03:30:04.355011",
+        "isPublished": false,
+        "_id": "68dc922c6d363f5fda7cfc07"
+    },
+    {
+        "courseId": "CRS007",
+        "title": "Introduction to Data Science",
+        "description": "Master Python libraries such as Pandas, NumPy, and Matplotlib for real-world data tasks.",
+        "instructorId": "INST002",
+        "category": "Data Science",
+        "level": "intermediate",
+        "duration": 80,
+        "price": 57.01,
+        "tags": [
+            "machinelearning",
+            "ai",
+            "statistics"
+        ],
+        "createdAt": "2025-01-19 03:30:04.355017",
+        "updatedAt": "2025-10-01 03:30:04.355019",
+        "isPublished": false,
+        "_id": "68dc922c6d363f5fda7cfc08"
+    },
+    {
+        "courseId": "CRS008",
+        "title": "Python for Data Analysis",
+        "description": "Master Python libraries such as Pandas, NumPy, and Matplotlib for real-world data tasks.",
+        "instructorId": "INST003",
+        "category": "Data Science",
+        "level": "advanced",
+        "duration": 58,
+        "price": 199.67,
+        "tags": [
+            "machinelearning",
+            "ai",
+            "statistics"
+        ],
+        "createdAt": "2025-03-18 03:30:04.355025",
+        "updatedAt": "2025-10-01 03:30:04.355027",
+        "isPublished": true,
+        "_id": "68dc922c6d363f5fda7cfc09"
+    }
+]

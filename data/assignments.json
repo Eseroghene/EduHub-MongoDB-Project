@@ -1,0 +1,112 @@
+[
+    {
+        "assignmentId": "ASM001",
+        "courseId": "CRS002",
+        "title": "Assignment 1",
+        "description": "Particular effect seat well plant tend system. Miss middle structure start.",
+        "dueDate": "2025-10-15 03:30:17.256956",
+        "createdAt": "2025-09-19 03:30:17.256969",
+        "updatedAt": "2025-10-01 03:30:17.256972",
+        "maxScore": 100,
+        "_id": "68dc92396d363f5fda7cfc32"
+    },
+    {
+        "assignmentId": "ASM002",
+        "courseId": "CRS008",
+        "title": "Assignment 2",
+        "description": "Piece themselves least parent. Than land point.",
+        "dueDate": "2025-10-26 03:30:17.257016",
+        "createdAt": "2025-09-11 03:30:17.257018",
+        "updatedAt": "2025-10-01 03:30:17.257019",
+        "maxScore": 100,
+        "_id": "68dc92396d363f5fda7cfc33"
+    },
+    {
+        "assignmentId": "ASM003",
+        "courseId": "CRS006",
+        "title": "Assignment 3",
+        "description": "Admit no style tell compare time. Yet serve face for third stay continue else.",
+        "dueDate": "2025-10-31 03:30:17.257044",
+        "createdAt": "2025-09-23 03:30:17.257046",
+        "updatedAt": "2025-10-01 03:30:17.257047",
+        "maxScore": 100,
+        "_id": "68dc92396d363f5fda7cfc34"
+    },
+    {
+        "assignmentId": "ASM004",
+        "courseId": "CRS005",
+        "title": "Assignment 4",
+        "description": "After tax wall him room.",
+        "dueDate": "2025-10-06 03:30:17.257061",
+        "createdAt": "2025-09-15 03:30:17.257062",
+        "updatedAt": "2025-10-01 03:30:17.257063",
+        "maxScore": 100,
+        "_id": "68dc92396d363f5fda7cfc35"
+    },
+    {
+        "assignmentId": "ASM005",
+        "courseId": "CRS003",
+        "title": "Assignment 5",
+        "description": "How present walk without commercial share occur seek. Doctor country worry doctor have prepare scene message. Local perform population work.",
+        "dueDate": "2025-10-06 03:30:17.257094",
+        "createdAt": "2025-09-03 03:30:17.257095",
+        "updatedAt": "2025-10-01 03:30:17.257096",
+        "maxScore": 100,
+        "_id": "68dc92396d363f5fda7cfc36"
+    },
+    {
+        "assignmentId": "ASM006",
+        "courseId": "CRS005",
+        "title": "Assignment 6",
+        "description": "More majority door whatever citizen them fire. School point do build spend. Money position away.",
+        "dueDate": "2025-10-19 03:30:17.257126",
+        "createdAt": "2025-09-03 03:30:17.257127",
+        "updatedAt": "2025-10-01 03:30:17.257128",
+        "maxScore": 100,
+        "_id": "68dc92396d363f5fda7cfc37"
+    },
+    {
+        "assignmentId": "ASM007",
+        "courseId": "CRS001",
+        "title": "Assignment 7",
+        "description": "Produce account might especially. Great personal toward discuss.",
+        "dueDate": "2025-10-26 03:30:17.257148",
+        "createdAt": "2025-09-26 03:30:17.257149",
+        "updatedAt": "2025-10-01 03:30:17.257150",
+        "maxScore": 100,
+        "_id": "68dc92396d363f5fda7cfc38"
+    },
+    {
+        "assignmentId": "ASM008",
+        "courseId": "CRS006",
+        "title": "Assignment 8",
+        "description": "Represent wonder kitchen goal charge eat enjoy thus. Develop past society.",
+        "dueDate": "2025-10-22 03:30:17.257171",
+        "createdAt": "2025-09-09 03:30:17.257172",
+        "updatedAt": "2025-10-01 03:30:17.257174",
+        "maxScore": 100,
+        "_id": "68dc92396d363f5fda7cfc39"
+    },
+    {
+        "assignmentId": "ASM009",
+        "courseId": "CRS007",
+        "title": "Assignment 9",
+        "description": "Feel behavior rest receive collection. Share one three trial pattern civil. Win from as kid center staff stock. Name among nearly of.",
+        "dueDate": "2025-10-26 03:30:17.257212",
+        "createdAt": "2025-09-16 03:30:17.257213",
+        "updatedAt": "2025-10-01 03:30:17.257214",
+        "maxScore": 100,
+        "_id": "68dc92396d363f5fda7cfc3a"
+    },
+    {
+        "assignmentId": "ASM010",
+        "courseId": "CRS002",
+        "title": "Assignment 10",
+        "description": "Agreement audience society clear cold task. Second remain dinner TV. Hotel back because officer clearly result notice. Site open smile even million media.",
+        "dueDate": "2025-10-11 03:30:17.257289",
+        "createdAt": "2025-09-24 03:30:17.257292",
+        "updatedAt": "2025-10-01 03:30:17.257293",
+        "maxScore": 100,
+        "_id": "68dc92396d363f5fda7cfc3b"
+    }
+]

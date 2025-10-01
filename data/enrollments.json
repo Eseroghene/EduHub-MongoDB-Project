@@ -1,0 +1,167 @@
+[
+    {
+        "enrollmentId": "ENR001",
+        "studentId": "STU010",
+        "courseId": "CRS007",
+        "enrolledAt": "2025-05-08 16:59:13.962092",
+        "status": "completed",
+        "progress": 2,
+        "completedAt": "2025-09-15 03:30:08.187583",
+        "lastAccessedAt": "2025-10-01 03:30:08.187940",
+        "_id": "68dc92306d363f5fda7cfc0a"
+    },
+    {
+        "enrollmentId": "ENR002",
+        "studentId": "STU009",
+        "courseId": "CRS002",
+        "enrolledAt": "2024-11-19 03:11:13.505378",
+        "status": "completed",
+        "progress": 64,
+        "completedAt": "2025-09-28 03:30:08.187946",
+        "lastAccessedAt": "2025-10-01 03:30:08.187983",
+        "_id": "68dc92306d363f5fda7cfc0b"
+    },
+    {
+        "enrollmentId": "ENR003",
+        "studentId": "STU014",
+        "courseId": "CRS004",
+        "enrolledAt": "2024-10-18 06:37:05.415917",
+        "status": "completed",
+        "progress": 39,
+        "completedAt": "2025-09-01 03:30:08.187985",
+        "lastAccessedAt": "2025-10-01 03:30:08.188013",
+        "_id": "68dc92306d363f5fda7cfc0c"
+    },
+    {
+        "enrollmentId": "ENR004",
+        "studentId": "STU012",
+        "courseId": "CRS001",
+        "enrolledAt": "2024-11-26 23:14:50.989693",
+        "status": "active",
+        "progress": 80,
+        "completedAt": null,
+        "lastAccessedAt": "2025-10-01 03:30:08.188037",
+        "_id": "68dc92306d363f5fda7cfc0d"
+    },
+    {
+        "enrollmentId": "ENR005",
+        "studentId": "STU003",
+        "courseId": "CRS004",
+        "enrolledAt": "2025-06-27 13:56:47.663852",
+        "status": "completed",
+        "progress": 52,
+        "completedAt": "2025-09-25 03:30:08.188039",
+        "lastAccessedAt": "2025-10-01 03:30:08.188062",
+        "_id": "68dc92306d363f5fda7cfc0e"
+    },
+    {
+        "enrollmentId": "ENR006",
+        "studentId": "STU014",
+        "courseId": "CRS004",
+        "enrolledAt": "2024-10-16 10:31:25.659700",
+        "status": "dropped",
+        "progress": 61,
+        "completedAt": null,
+        "lastAccessedAt": "2025-10-01 03:30:08.188085",
+        "_id": "68dc92306d363f5fda7cfc0f"
+    },
+    {
+        "enrollmentId": "ENR007",
+        "studentId": "STU011",
+        "courseId": "CRS002",
+        "enrolledAt": "2025-06-30 16:44:24.736336",
+        "status": "active",
+        "progress": 90,
+        "completedAt": null,
+        "lastAccessedAt": "2025-10-01 03:30:08.188108",
+        "_id": "68dc92306d363f5fda7cfc10"
+    },
+    {
+        "enrollmentId": "ENR008",
+        "studentId": "STU001",
+        "courseId": "CRS008",
+        "enrolledAt": "2025-03-05 14:44:10.741710",
+        "status": "active",
+        "progress": 81,
+        "completedAt": null,
+        "lastAccessedAt": "2025-10-01 03:30:08.188130",
+        "_id": "68dc92306d363f5fda7cfc11"
+    },
+    {
+        "enrollmentId": "ENR009",
+        "studentId": "STU011",
+        "courseId": "CRS004",
+        "enrolledAt": "2025-08-16 08:13:29.175034",
+        "status": "dropped",
+        "progress": 16,
+        "completedAt": null,
+        "lastAccessedAt": "2025-10-01 03:30:08.188151",
+        "_id": "68dc92306d363f5fda7cfc12"
+    },
+    {
+        "enrollmentId": "ENR010",
+        "studentId": "STU014",
+        "courseId": "CRS006",
+        "enrolledAt": "2024-11-30 01:11:41.112502",
+        "status": "completed",
+        "progress": 15,
+        "completedAt": "2025-09-04 03:30:08.188153",
+        "lastAccessedAt": "2025-10-01 03:30:08.188176",
+        "_id": "68dc92306d363f5fda7cfc13"
+    },
+    {
+        "enrollmentId": "ENR011",
+        "studentId": "STU008",
+        "courseId": "CRS002",
+        "enrolledAt": "2024-10-01 08:57:04.524089",
+        "status": "active",
+        "progress": 13,
+        "completedAt": null,
+        "lastAccessedAt": "2025-10-01 03:30:08.188196",
+        "_id": "68dc92306d363f5fda7cfc14"
+    },
+    {
+        "enrollmentId": "ENR012",
+        "studentId": "STU007",
+        "courseId": "CRS004",
+        "enrolledAt": "2025-07-30 10:35:46.473172",
+        "status": "completed",
+        "progress": 13,
+        "completedAt": "2025-09-21 03:30:08.188198",
+        "lastAccessedAt": "2025-10-01 03:30:08.188219",
+        "_id": "68dc92306d363f5fda7cfc15"
+    },
+    {
+        "enrollmentId": "ENR013",
+        "studentId": "STU011",
+        "courseId": "CRS003",
+        "enrolledAt": "2024-11-13 17:39:35.726526",
+        "status": "dropped",
+        "progress": 85,
+        "completedAt": null,
+        "lastAccessedAt": "2025-10-01 03:30:08.188239",
+        "_id": "68dc92306d363f5fda7cfc16"
+    },
+    {
+        "enrollmentId": "ENR014",
+        "studentId": "STU014",
+        "courseId": "CRS003",
+        "enrolledAt": "2024-10-11 19:32:08.915310",
+        "status": "completed",
+        "progress": 86,
+        "completedAt": "2025-09-02 03:30:08.188241",
+        "lastAccessedAt": "2025-10-01 03:30:08.188261",
+        "_id": "68dc92306d363f5fda7cfc17"
+    },
+    {
+        "enrollmentId": "ENR015",
+        "studentId": "STU002",
+        "courseId": "CRS001",
+        "enrolledAt": "2025-03-01 13:23:59.282966",
+        "status": "dropped",
+        "progress": 64,
+        "completedAt": null,
+        "lastAccessedAt": "2025-10-01 03:30:08.188281",
+        "_id": "68dc92306d363f5fda7cfc18"
+    }
+]

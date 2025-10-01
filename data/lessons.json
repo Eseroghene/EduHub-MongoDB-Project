@@ -1,0 +1,314 @@
+[
+    {
+        "lessonId": "LES001",
+        "courseId": "CRS005",
+        "title": "Introduction to Programming Concepts",
+        "content": "This lesson provides an overview of key concepts and sets the foundation for the course.",
+        "order": 1,
+        "resources": [],
+        "createdAt": "2025-07-21 03:30:11.798475",
+        "updatedAt": "2025-10-01 03:30:11.798481",
+        "_id": "68dc92336d363f5fda7cfc19"
+    },
+    {
+        "lessonId": "LES002",
+        "courseId": "CRS008",
+        "title": "Error Handling and Debugging Strategies",
+        "content": "Techniques for handling errors, debugging, and writing robust applications.",
+        "order": 2,
+        "resources": [],
+        "createdAt": "2025-07-18 03:30:11.798485",
+        "updatedAt": "2025-10-01 03:30:11.798486",
+        "_id": "68dc92336d363f5fda7cfc1a"
+    },
+    {
+        "lessonId": "LES003",
+        "courseId": "CRS008",
+        "title": "Introduction to Data Analytics Workflow",
+        "content": "This session provides a complete walkthrough of the analytics process.",
+        "order": 3,
+        "resources": [
+            "http://www.mendez.org/"
+        ],
+        "createdAt": "2025-06-28 03:30:11.798875",
+        "updatedAt": "2025-10-01 03:30:11.798878",
+        "_id": "68dc92336d363f5fda7cfc1b"
+    },
+    {
+        "lessonId": "LES004",
+        "courseId": "CRS008",
+        "title": "Creating Interactive Dashboards in Power BI",
+        "content": "Gain practical experience creating dashboards and reports in Power BI.",
+        "order": 4,
+        "resources": [
+            "http://sanders.com/",
+            "http://www.johnson.com/"
+        ],
+        "createdAt": "2025-07-31 03:30:11.799168",
+        "updatedAt": "2025-10-01 03:30:11.799170",
+        "_id": "68dc92336d363f5fda7cfc1c"
+    },
+    {
+        "lessonId": "LES005",
+        "courseId": "CRS006",
+        "title": "Creating Interactive Dashboards in Power BI",
+        "content": "Gain practical experience creating dashboards and reports in Power BI.",
+        "order": 5,
+        "resources": [
+            "https://www.davis.com/"
+        ],
+        "createdAt": "2025-06-28 03:30:11.799226",
+        "updatedAt": "2025-10-01 03:30:11.799227",
+        "_id": "68dc92336d363f5fda7cfc1d"
+    },
+    {
+        "lessonId": "LES006",
+        "courseId": "CRS007",
+        "title": "Exploring Machine Learning Basics",
+        "content": "This session introduces supervised and unsupervised machine learning techniques.",
+        "order": 6,
+        "resources": [
+            "https://www.martin.biz/",
+            "https://www.jefferson.com/"
+        ],
+        "createdAt": "2025-07-13 03:30:11.799505",
+        "updatedAt": "2025-10-01 03:30:11.799507",
+        "_id": "68dc92336d363f5fda7cfc1e"
+    },
+    {
+        "lessonId": "LES007",
+        "courseId": "CRS008",
+        "title": "Data Cleaning and Preparation Techniques",
+        "content": "Learn techniques to clean, prepare, and validate raw data before analysis.",
+        "order": 7,
+        "resources": [
+            "https://holder-allen.com/",
+            "https://campbell.biz/"
+        ],
+        "createdAt": "2025-07-26 03:30:11.799741",
+        "updatedAt": "2025-10-01 03:30:11.799742",
+        "_id": "68dc92336d363f5fda7cfc1f"
+    },
+    {
+        "lessonId": "LES008",
+        "courseId": "CRS004",
+        "title": "Building RESTful APIs with Flask",
+        "content": "Learn to design and build REST APIs using Flask in Python.",
+        "order": 8,
+        "resources": [
+            "http://www.arnold-smith.com/",
+            "http://www.bryant-smith.com/"
+        ],
+        "createdAt": "2025-07-21 03:30:11.799935",
+        "updatedAt": "2025-10-01 03:30:11.799936",
+        "_id": "68dc92336d363f5fda7cfc20"
+    },
+    {
+        "lessonId": "LES009",
+        "courseId": "CRS003",
+        "title": "Data Cleaning and Preparation Techniques",
+        "content": "Learn techniques to clean, prepare, and validate raw data before analysis.",
+        "order": 9,
+        "resources": [],
+        "createdAt": "2025-09-14 03:30:11.799938",
+        "updatedAt": "2025-10-01 03:30:11.799939",
+        "_id": "68dc92336d363f5fda7cfc21"
+    },
+    {
+        "lessonId": "LES010",
+        "courseId": "CRS006",
+        "title": "Understanding Data Structures in Python",
+        "content": "Students will learn how to structure data efficiently using arrays, lists, and dictionaries.",
+        "order": 10,
+        "resources": [],
+        "createdAt": "2025-09-17 03:30:11.799941",
+        "updatedAt": "2025-10-01 03:30:11.799942",
+        "_id": "68dc92336d363f5fda7cfc22"
+    },
+    {
+        "lessonId": "LES011",
+        "courseId": "CRS006",
+        "title": "Introduction to Cloud Computing",
+        "content": "Introduction to cloud platforms and their use in modern applications.",
+        "order": 11,
+        "resources": [],
+        "createdAt": "2025-09-22 03:30:11.799943",
+        "updatedAt": "2025-10-01 03:30:11.799944",
+        "_id": "68dc92336d363f5fda7cfc23"
+    },
+    {
+        "lessonId": "LES012",
+        "courseId": "CRS003",
+        "title": "Object-Oriented Programming Explained",
+        "content": "Understand the core principles of object-oriented programming with examples.",
+        "order": 12,
+        "resources": [],
+        "createdAt": "2025-07-04 03:30:11.799946",
+        "updatedAt": "2025-10-01 03:30:11.799947",
+        "_id": "68dc92336d363f5fda7cfc24"
+    },
+    {
+        "lessonId": "LES013",
+        "courseId": "CRS002",
+        "title": "Introduction to Programming Concepts",
+        "content": "This lesson provides an overview of key concepts and sets the foundation for the course.",
+        "order": 13,
+        "resources": [],
+        "createdAt": "2025-08-17 03:30:11.799949",
+        "updatedAt": "2025-10-01 03:30:11.799949",
+        "_id": "68dc92336d363f5fda7cfc25"
+    },
+    {
+        "lessonId": "LES014",
+        "courseId": "CRS001",
+        "title": "Visualization with Matplotlib and Seaborn",
+        "content": "This lesson teaches visualization best practices with real datasets.",
+        "order": 14,
+        "resources": [
+            "http://thomas.com/"
+        ],
+        "createdAt": "2025-07-14 03:30:11.800008",
+        "updatedAt": "2025-10-01 03:30:11.800009",
+        "_id": "68dc92336d363f5fda7cfc26"
+    },
+    {
+        "lessonId": "LES015",
+        "courseId": "CRS004",
+        "title": "Working with SQL Databases",
+        "content": "Learn how to design, query, and manage SQL databases for analytics.",
+        "order": 15,
+        "resources": [],
+        "createdAt": "2025-06-26 03:30:11.800011",
+        "updatedAt": "2025-10-01 03:30:11.800012",
+        "_id": "68dc92336d363f5fda7cfc27"
+    },
+    {
+        "lessonId": "LES016",
+        "courseId": "CRS005",
+        "title": "Introduction to Programming Concepts",
+        "content": "This lesson provides an overview of key concepts and sets the foundation for the course.",
+        "order": 16,
+        "resources": [
+            "https://www.woodard.com/",
+            "http://wong.com/"
+        ],
+        "createdAt": "2025-07-24 03:30:11.800206",
+        "updatedAt": "2025-10-01 03:30:11.800207",
+        "_id": "68dc92336d363f5fda7cfc28"
+    },
+    {
+        "lessonId": "LES017",
+        "courseId": "CRS002",
+        "title": "Exploring Machine Learning Basics",
+        "content": "This session introduces supervised and unsupervised machine learning techniques.",
+        "order": 17,
+        "resources": [],
+        "createdAt": "2025-09-15 03:30:11.800209",
+        "updatedAt": "2025-10-01 03:30:11.800210",
+        "_id": "68dc92336d363f5fda7cfc29"
+    },
+    {
+        "lessonId": "LES018",
+        "courseId": "CRS008",
+        "title": "Error Handling and Debugging Strategies",
+        "content": "Techniques for handling errors, debugging, and writing robust applications.",
+        "order": 18,
+        "resources": [],
+        "createdAt": "2025-09-09 03:30:11.800211",
+        "updatedAt": "2025-10-01 03:30:11.800212",
+        "_id": "68dc92336d363f5fda7cfc2a"
+    },
+    {
+        "lessonId": "LES019",
+        "courseId": "CRS008",
+        "title": "Error Handling and Debugging Strategies",
+        "content": "Techniques for handling errors, debugging, and writing robust applications.",
+        "order": 19,
+        "resources": [
+            "https://www.gomez.com/"
+        ],
+        "createdAt": "2025-07-04 03:30:11.800352",
+        "updatedAt": "2025-10-01 03:30:11.800353",
+        "_id": "68dc92336d363f5fda7cfc2b"
+    },
+    {
+        "lessonId": "LES020",
+        "courseId": "CRS002",
+        "title": "Final Project and Capstone Overview",
+        "content": "Overview of final project requirements and capstone preparation.",
+        "order": 20,
+        "resources": [
+            "https://www.velez-clark.biz/",
+            "https://trevino.net/"
+        ],
+        "createdAt": "2025-07-04 03:30:11.800587",
+        "updatedAt": "2025-10-01 03:30:11.800588",
+        "_id": "68dc92336d363f5fda7cfc2c"
+    },
+    {
+        "lessonId": "LES021",
+        "courseId": "CRS004",
+        "title": "Creating Interactive Dashboards in Power BI",
+        "content": "Gain practical experience creating dashboards and reports in Power BI.",
+        "order": 21,
+        "resources": [
+            "https://www.glover.com/",
+            "http://www.joseph-butler.com/"
+        ],
+        "createdAt": "2025-07-30 03:30:11.800737",
+        "updatedAt": "2025-10-01 03:30:11.800738",
+        "_id": "68dc92336d363f5fda7cfc2d"
+    },
+    {
+        "lessonId": "LES022",
+        "courseId": "CRS007",
+        "title": "Error Handling and Debugging Strategies",
+        "content": "Techniques for handling errors, debugging, and writing robust applications.",
+        "order": 22,
+        "resources": [
+            "https://cox.com/",
+            "https://palmer-bean.com/"
+        ],
+        "createdAt": "2025-08-30 03:30:11.800968",
+        "updatedAt": "2025-10-01 03:30:11.800970",
+        "_id": "68dc92336d363f5fda7cfc2e"
+    },
+    {
+        "lessonId": "LES023",
+        "courseId": "CRS005",
+        "title": "Basics of Frontend Development with React",
+        "content": "Learn the basics of frontend web development with React.",
+        "order": 23,
+        "resources": [
+            "http://www.ramos.com/"
+        ],
+        "createdAt": "2025-09-20 03:30:11.801022",
+        "updatedAt": "2025-10-01 03:30:11.801023",
+        "_id": "68dc92336d363f5fda7cfc2f"
+    },
+    {
+        "lessonId": "LES024",
+        "courseId": "CRS004",
+        "title": "Working with SQL Databases",
+        "content": "Learn how to design, query, and manage SQL databases for analytics.",
+        "order": 24,
+        "resources": [],
+        "createdAt": "2025-09-06 03:30:11.801025",
+        "updatedAt": "2025-10-01 03:30:11.801026",
+        "_id": "68dc92336d363f5fda7cfc30"
+    },
+    {
+        "lessonId": "LES025",
+        "courseId": "CRS005",
+        "title": "APIs and Data Integration Essentials",
+        "content": "Learn how to work with APIs and integrate external data into projects.",
+        "order": 25,
+        "resources": [
+            "http://phillips.com/",
+            "https://reyes.info/"
+        ],
+        "createdAt": "2025-07-02 03:30:11.801301",
+        "updatedAt": "2025-10-01 03:30:11.801302",
+        "_id": "68dc92336d363f5fda7cfc31"
+    }
+]
