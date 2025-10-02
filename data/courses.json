@@ -1,154 +1,154 @@
 [
     {
         "courseId": "CRS001",
-        "title": "Serverless Applications on Cloud",
-        "description": "Learn automation, CI/CD pipelines, and containerization for efficient deployments.",
-        "instructorId": "INST005",
+        "title": "Cloud Computing with AWS",
+        "description": "Understand cloud architecture and work hands-on with AWS services.",
+        "instructorId": "INST001",
         "category": "Cloud Computing",
-        "level": "advanced",
-        "duration": 45,
-        "price": 139.59,
+        "level": "beginner",
+        "duration": 48,
+        "price": 156.47,
         "tags": [
             "serverless",
             "lambda",
             "scalable"
         ],
-        "createdAt": "2025-02-03 14:17:40.783550",
-        "updatedAt": "2025-10-01 14:17:40.783563",
-        "isPublished": true,
-        "_id": "68dd29f46d363f5fda7cfcb6"
+        "createdAt": "2025-05-04 03:51:34.703727",
+        "updatedAt": "2025-10-02 03:51:34.703740",
+        "isPublished": false,
+        "_id": "68dde8b6f743684e0fe43485"
     },
     {
         "courseId": "CRS002",
-        "title": "Machine Learning for Beginners",
-        "description": "Learn the fundamentals of data science, from cleaning datasets to building predictive models.",
-        "instructorId": "INST001",
-        "category": "Data Science",
-        "level": "beginner",
-        "duration": 9,
-        "price": 144.68,
-        "tags": [
-            "machinelearning",
-            "ai",
-            "statistics"
-        ],
-        "createdAt": "2024-12-16 14:17:40.783575",
-        "updatedAt": "2025-10-01 14:17:40.783578",
-        "isPublished": true,
-        "_id": "68dd29f46d363f5fda7cfcb7"
-    },
-    {
-        "courseId": "CRS003",
-        "title": "Machine Learning for Beginners",
-        "description": "Master Python libraries such as Pandas, NumPy, and Matplotlib for real-world data tasks.",
-        "instructorId": "INST004",
-        "category": "Data Science",
-        "level": "intermediate",
-        "duration": 72,
-        "price": 110.3,
-        "tags": [
-            "machinelearning",
-            "ai",
-            "statistics"
-        ],
-        "createdAt": "2025-07-04 14:17:40.783583",
-        "updatedAt": "2025-10-01 14:17:40.783585",
-        "isPublished": true,
-        "_id": "68dd29f46d363f5fda7cfcb8"
-    },
-    {
-        "courseId": "CRS004",
-        "title": "Backend Development with Node.js",
-        "description": "Master full-stack skills by building complete, scalable web applications.",
-        "instructorId": "INST001",
-        "category": "Web Development",
-        "level": "advanced",
-        "duration": 50,
-        "price": 69.12,
-        "tags": [
-            "fullstack",
-            "webdev",
-            "coding"
-        ],
-        "createdAt": "2025-06-08 14:17:40.783769",
-        "updatedAt": "2025-10-01 14:17:40.783773",
-        "isPublished": false,
-        "_id": "68dd29f46d363f5fda7cfcb9"
-    },
-    {
-        "courseId": "CRS005",
-        "title": "Machine Learning for Beginners",
-        "description": "Master Python libraries such as Pandas, NumPy, and Matplotlib for real-world data tasks.",
-        "instructorId": "INST003",
-        "category": "Data Science",
-        "level": "advanced",
-        "duration": 88,
-        "price": 44.6,
-        "tags": [
-            "visualization",
-            "modeling",
-            "pandas"
-        ],
-        "createdAt": "2024-10-29 14:17:40.783778",
-        "updatedAt": "2025-10-01 14:17:40.783780",
-        "isPublished": false,
-        "_id": "68dd29f46d363f5fda7cfcba"
-    },
-    {
-        "courseId": "CRS006",
-        "title": "Cloud Computing with AWS",
-        "description": "Learn automation, CI/CD pipelines, and containerization for efficient deployments.",
-        "instructorId": "INST003",
-        "category": "Cloud Computing",
-        "level": "advanced",
-        "duration": 86,
-        "price": 28.0,
-        "tags": [
-            "serverless",
-            "lambda",
-            "scalable"
-        ],
-        "createdAt": "2024-11-08 14:17:40.783785",
-        "updatedAt": "2025-10-01 14:17:40.783786",
-        "isPublished": false,
-        "_id": "68dd29f46d363f5fda7cfcbb"
-    },
-    {
-        "courseId": "CRS007",
         "title": "Introduction to Data Science",
         "description": "Master Python libraries such as Pandas, NumPy, and Matplotlib for real-world data tasks.",
-        "instructorId": "INST005",
+        "instructorId": "INST002",
         "category": "Data Science",
         "level": "beginner",
-        "duration": 55,
-        "price": 45.8,
-        "tags": [
-            "visualization",
-            "modeling",
-            "pandas"
-        ],
-        "createdAt": "2025-03-06 14:17:40.783790",
-        "updatedAt": "2025-10-01 14:17:40.783791",
-        "isPublished": true,
-        "_id": "68dd29f46d363f5fda7cfcbc"
-    },
-    {
-        "courseId": "CRS008",
-        "title": "Python for Data Analysis",
-        "description": "Master Python libraries such as Pandas, NumPy, and Matplotlib for real-world data tasks.",
-        "instructorId": "INST004",
-        "category": "Data Science",
-        "level": "intermediate",
-        "duration": 25,
-        "price": 140.06,
+        "duration": 28,
+        "price": 13.25,
         "tags": [
             "data",
             "python",
             "analytics"
         ],
-        "createdAt": "2024-10-18 14:17:40.783794",
-        "updatedAt": "2025-10-01 14:17:40.783795",
+        "createdAt": "2024-12-26 03:51:34.703756",
+        "updatedAt": "2025-10-02 03:51:34.703761",
         "isPublished": false,
-        "_id": "68dd29f46d363f5fda7cfcbd"
+        "_id": "68dde8b6f743684e0fe43486"
+    },
+    {
+        "courseId": "CRS003",
+        "title": "Frontend Development with React",
+        "description": "Build responsive user interfaces using React and modern JavaScript tools.",
+        "instructorId": "INST003",
+        "category": "Web Development",
+        "level": "beginner",
+        "duration": 60,
+        "price": 195.84,
+        "tags": [
+            "nodejs",
+            "express",
+            "backend"
+        ],
+        "createdAt": "2024-10-28 03:51:34.703771",
+        "updatedAt": "2025-10-02 03:51:34.703774",
+        "isPublished": true,
+        "_id": "68dde8b6f743684e0fe43487"
+    },
+    {
+        "courseId": "CRS004",
+        "title": "Full-Stack Web Development",
+        "description": "Learn backend principles, APIs, and server management with Node.js and Express.",
+        "instructorId": "INST005",
+        "category": "Web Development",
+        "level": "intermediate",
+        "duration": 38,
+        "price": 93.67,
+        "tags": [
+            "react",
+            "javascript",
+            "frontend"
+        ],
+        "createdAt": "2024-12-19 03:51:34.703783",
+        "updatedAt": "2025-10-02 03:51:34.703785",
+        "isPublished": true,
+        "_id": "68dde8b6f743684e0fe43488"
+    },
+    {
+        "courseId": "CRS005",
+        "title": "DevOps Fundamentals",
+        "description": "Understand cloud architecture and work hands-on with AWS services.",
+        "instructorId": "INST005",
+        "category": "Cloud Computing",
+        "level": "advanced",
+        "duration": 95,
+        "price": 38.35,
+        "tags": [
+            "cloud",
+            "aws",
+            "infrastructure"
+        ],
+        "createdAt": "2025-09-17 03:51:34.703792",
+        "updatedAt": "2025-10-02 03:51:34.703795",
+        "isPublished": true,
+        "_id": "68dde8b6f743684e0fe43489"
+    },
+    {
+        "courseId": "CRS006",
+        "title": "Serverless Applications on Cloud",
+        "description": "Explore serverless computing and how to build applications without managing servers.",
+        "instructorId": "INST003",
+        "category": "Cloud Computing",
+        "level": "beginner",
+        "duration": 62,
+        "price": 142.25,
+        "tags": [
+            "devops",
+            "automation",
+            "ci/cd"
+        ],
+        "createdAt": "2025-04-09 03:51:34.703802",
+        "updatedAt": "2025-10-02 03:51:34.703804",
+        "isPublished": true,
+        "_id": "68dde8b6f743684e0fe4348a"
+    },
+    {
+        "courseId": "CRS007",
+        "title": "Python for Data Analysis",
+        "description": "Learn the fundamentals of data science, from cleaning datasets to building predictive models.",
+        "instructorId": "INST002",
+        "category": "Data Science",
+        "level": "advanced",
+        "duration": 86,
+        "price": 68.43,
+        "tags": [
+            "machinelearning",
+            "ai",
+            "statistics"
+        ],
+        "createdAt": "2025-09-10 03:51:34.703811",
+        "updatedAt": "2025-10-02 03:51:34.703813",
+        "isPublished": true,
+        "_id": "68dde8b6f743684e0fe4348b"
+    },
+    {
+        "courseId": "CRS008",
+        "title": "Frontend Development with React",
+        "description": "Build responsive user interfaces using React and modern JavaScript tools.",
+        "instructorId": "INST003",
+        "category": "Web Development",
+        "level": "beginner",
+        "duration": 77,
+        "price": 183.76,
+        "tags": [
+            "fullstack",
+            "webdev",
+            "coding"
+        ],
+        "createdAt": "2025-05-22 03:51:34.703821",
+        "updatedAt": "2025-10-02 03:51:34.703823",
+        "isPublished": true,
+        "_id": "68dde8b6f743684e0fe4348c"
     }
 ]

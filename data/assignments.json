@@ -1,112 +1,112 @@
 [
     {
         "assignmentId": "ASM001",
-        "courseId": "CRS001",
+        "courseId": "CRS006",
         "title": "Assignment 1",
-        "description": "Unit soldier save item. A senior much dream bill technology star line. Population move activity put ten could my thing.",
-        "dueDate": "2025-10-17 14:19:26.826971",
-        "createdAt": "2025-09-03 14:19:26.826984",
-        "updatedAt": "2025-10-01 14:19:26.826986",
+        "description": "Explore and visualize trends in the provided dataset.",
+        "dueDate": "2025-10-14 03:51:48.504181",
+        "createdAt": "2025-10-01 03:51:48.504190",
+        "updatedAt": "2025-10-02 03:51:48.504192",
         "maxScore": 100,
-        "_id": "68dd2a5e6d363f5fda7cfce6"
+        "_id": "68dde8c4f743684e0fe434b5"
     },
     {
         "assignmentId": "ASM002",
-        "courseId": "CRS007",
+        "courseId": "CRS004",
         "title": "Assignment 2",
-        "description": "Along now as heavy.",
-        "dueDate": "2025-10-22 14:19:26.827013",
-        "createdAt": "2025-09-07 14:19:26.827015",
-        "updatedAt": "2025-10-01 14:19:26.827017",
+        "description": "Implement an algorithm to solve the given problem.",
+        "dueDate": "2025-10-19 03:51:48.504196",
+        "createdAt": "2025-09-19 03:51:48.504198",
+        "updatedAt": "2025-10-02 03:51:48.504199",
         "maxScore": 100,
-        "_id": "68dd2a5e6d363f5fda7cfce7"
+        "_id": "68dde8c4f743684e0fe434b6"
     },
     {
         "assignmentId": "ASM003",
-        "courseId": "CRS006",
+        "courseId": "CRS004",
         "title": "Assignment 3",
-        "description": "Spring station base first start even. Support meet possible dream word one instead. Born consider majority usually. Evening trip market buy agency fill hotel west.",
-        "dueDate": "2025-10-18 14:19:26.827067",
-        "createdAt": "2025-09-04 14:19:26.827069",
-        "updatedAt": "2025-10-01 14:19:26.827071",
+        "description": "Analyze the given dataset and provide insights.",
+        "dueDate": "2025-10-31 03:51:48.504200",
+        "createdAt": "2025-09-28 03:51:48.504201",
+        "updatedAt": "2025-10-02 03:51:48.504202",
         "maxScore": 100,
-        "_id": "68dd2a5e6d363f5fda7cfce8"
+        "_id": "68dde8c4f743684e0fe434b7"
     },
     {
         "assignmentId": "ASM004",
-        "courseId": "CRS007",
+        "courseId": "CRS003",
         "title": "Assignment 4",
-        "description": "Account test take result. Perhaps contain nearly choice. Lead institution entire thousand.",
-        "dueDate": "2025-10-18 14:19:26.827108",
-        "createdAt": "2025-09-12 14:19:26.827110",
-        "updatedAt": "2025-10-01 14:19:26.827111",
+        "description": "Build a dashboard using Power BI to visualize sales data.",
+        "dueDate": "2025-10-18 03:51:48.504204",
+        "createdAt": "2025-09-24 03:51:48.504205",
+        "updatedAt": "2025-10-02 03:51:48.504205",
         "maxScore": 100,
-        "_id": "68dd2a5e6d363f5fda7cfce9"
+        "_id": "68dde8c4f743684e0fe434b8"
     },
     {
         "assignmentId": "ASM005",
-        "courseId": "CRS003",
+        "courseId": "CRS007",
         "title": "Assignment 5",
-        "description": "What resource song writer feeling picture science send. Share thing rather significant pattern. Current own so final cut clear.",
-        "dueDate": "2025-10-16 14:19:26.827143",
-        "createdAt": "2025-09-22 14:19:26.827145",
-        "updatedAt": "2025-10-01 14:19:26.827146",
+        "description": "Perform data cleaning and preprocessing on the dataset.",
+        "dueDate": "2025-10-29 03:51:48.504207",
+        "createdAt": "2025-09-30 03:51:48.504208",
+        "updatedAt": "2025-10-02 03:51:48.504209",
         "maxScore": 100,
-        "_id": "68dd2a5e6d363f5fda7cfcea"
+        "_id": "68dde8c4f743684e0fe434b9"
     },
     {
         "assignmentId": "ASM006",
-        "courseId": "CRS005",
+        "courseId": "CRS003",
         "title": "Assignment 6",
-        "description": "We listen as street.",
-        "dueDate": "2025-10-24 14:19:26.827163",
-        "createdAt": "2025-09-26 14:19:26.827165",
-        "updatedAt": "2025-10-01 14:19:26.827166",
+        "description": "Write a report on the findings of the market analysis.",
+        "dueDate": "2025-10-08 03:51:48.504210",
+        "createdAt": "2025-09-16 03:51:48.504211",
+        "updatedAt": "2025-10-02 03:51:48.504212",
         "maxScore": 100,
-        "_id": "68dd2a5e6d363f5fda7cfceb"
+        "_id": "68dde8c4f743684e0fe434ba"
     },
     {
         "assignmentId": "ASM007",
-        "courseId": "CRS003",
+        "courseId": "CRS008",
         "title": "Assignment 7",
-        "description": "Want local both necessary pick success understand. Beautiful box leader politics sister pretty firm only. Example contain heavy level talk example name war. Almost wear five one drop.",
-        "dueDate": "2025-10-27 14:19:26.827206",
-        "createdAt": "2025-09-05 14:19:26.827208",
-        "updatedAt": "2025-10-01 14:19:26.827209",
+        "description": "Analyze the given dataset and provide insights.",
+        "dueDate": "2025-10-09 03:51:48.504213",
+        "createdAt": "2025-09-09 03:51:48.504214",
+        "updatedAt": "2025-10-02 03:51:48.504215",
         "maxScore": 100,
-        "_id": "68dd2a5e6d363f5fda7cfcec"
+        "_id": "68dde8c4f743684e0fe434bb"
     },
     {
         "assignmentId": "ASM008",
-        "courseId": "CRS005",
+        "courseId": "CRS003",
         "title": "Assignment 8",
-        "description": "Certainly force rest alone memory bill already. All church ten politics continue indeed laugh certain. Know end do low view if quite.",
-        "dueDate": "2025-10-25 14:19:26.827241",
-        "createdAt": "2025-09-03 14:19:26.827242",
-        "updatedAt": "2025-10-01 14:19:26.827243",
+        "description": "Implement an algorithm to solve the given problem.",
+        "dueDate": "2025-10-17 03:51:48.504216",
+        "createdAt": "2025-09-07 03:51:48.504217",
+        "updatedAt": "2025-10-02 03:51:48.504217",
         "maxScore": 100,
-        "_id": "68dd2a5e6d363f5fda7cfced"
+        "_id": "68dde8c4f743684e0fe434bc"
     },
     {
         "assignmentId": "ASM009",
-        "courseId": "CRS006",
+        "courseId": "CRS002",
         "title": "Assignment 9",
-        "description": "Again support reach or. Many fish design. Seem science discover audience alone my eight officer.",
-        "dueDate": "2025-10-18 14:19:26.827275",
-        "createdAt": "2025-09-24 14:19:26.827276",
-        "updatedAt": "2025-10-01 14:19:26.827278",
+        "description": "Build a dashboard using Power BI to visualize sales data.",
+        "dueDate": "2025-10-17 03:51:48.504219",
+        "createdAt": "2025-09-28 03:51:48.504220",
+        "updatedAt": "2025-10-02 03:51:48.504220",
         "maxScore": 100,
-        "_id": "68dd2a5e6d363f5fda7cfcee"
+        "_id": "68dde8c4f743684e0fe434bd"
     },
     {
         "assignmentId": "ASM010",
-        "courseId": "CRS001",
+        "courseId": "CRS006",
         "title": "Assignment 10",
-        "description": "Worry bill music card fast. Author lawyer system.",
-        "dueDate": "2025-10-06 14:19:26.827300",
-        "createdAt": "2025-09-14 14:19:26.827302",
-        "updatedAt": "2025-10-01 14:19:26.827303",
+        "description": "Create a Python script to automate the task.",
+        "dueDate": "2025-10-08 03:51:48.504222",
+        "createdAt": "2025-09-25 03:51:48.504223",
+        "updatedAt": "2025-10-02 03:51:48.504224",
         "maxScore": 100,
-        "_id": "68dd2a5e6d363f5fda7cfcef"
+        "_id": "68dde8c4f743684e0fe434be"
     }
 ]
