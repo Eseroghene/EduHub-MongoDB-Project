@@ -278,6 +278,39 @@ This project demonstrates **MongoDB operations** organized into three main areas
 | Courses in category Cloud Computing  | After        | 2                    | 2                    | PROJECTION_SIMPLE  | 0.218014      | 0.206750      | 0.224708      |
 | Assignments due in next 14 days      | After        | 4                    | 4                    | PROJECTION_SIMPLE  | 0.297264      | 0.256292      | 0.376792      |
 
+## Optimization Plan Explanation  
+
+In this project, we tested three key queries **before and after optimization**. The main goal was to reduce execution time, minimize documents/keys scanned, and ensure efficient use of indexes.  
+
+### 1. Find User by Email  
+- **Before:** Docs examined = `1`, Keys examined = `1`, Avg time = `0.84 ms`  
+- **After:** Docs examined = `1`, Keys examined = `1`, Avg time = `0.23 ms`  
+ **Improvement:** Ensured a unique index on `email`, resulting in faster lookups.  
+
+---
+
+### 2. Courses in Category: *Cloud Computing*  
+- **Before:** Docs examined = `2`, Keys examined = `2`, Avg time = `0.49 ms`  
+- **After:** Docs examined = `2`, Keys examined = `2`, Avg time = `0.21 ms`  
+**Improvement:** Added a compound index on `{ category, level }`, making category filtering more efficient.  
+
+---
+
+### 3. Assignments Due in Next 14 Days  
+- **Before:** Docs examined = `4`, Keys examined = `4`, Avg time = `0.23 ms`  
+- **After:** Docs examined = `4`, Keys examined = `4`, Avg time = `0.29 ms`  
+**Observation:** Slightly slower on small data due to index overhead. However, the `dueDate` index ensures scalability for larger datasets by avoiding full collection scans.  
+
+---
+
+### Summary of Optimization  
+1. **Unique index on `email`** → Faster user lookups.  
+2. **Compound index on `{ category, level }`** → Optimized course filtering.  
+3. **Single index on `dueDate`** → Efficient range queries for assignments.  
+
+**Key Takeaway:** Even if improvements look small on a toy dataset, indexing prepares the database for **scalability and high-performance querying** in real-world, large-scale scenarios.  
+
+
 ## Project Structure
 ```
 mongodb-eduhub-project/
