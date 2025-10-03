@@ -316,5 +316,5 @@ mongodb-eduhub-project/
 **Solution:** Implemented application-level validation checks before insertions and deletions to maintain data consistency.
 
 ## License
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+This project is licensed under the [MIT License](./LICENSE) - see the LICENSE file for details.
 
