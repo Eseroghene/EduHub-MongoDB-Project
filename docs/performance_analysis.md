@@ -1,4 +1,14 @@
-Performance Optimizations
+# Performance Analysis  
+
+This document provides a detailed breakdown of query performance **before and after optimization** in the **MongoDB-EduHub-Project**.  
+
+
+## Optimization Goals
+- Reduce query execution time  
+- Minimize scanned documents/keys  
+- Ensure efficient index usage  
+
+
 
 **Indexes Created**
 
@@ -10,6 +20,8 @@ Performance Optimizations
 | courses     | category, level        | Compound| Filtered queries         |
 | enrollments | studentId, courseId    | Compound| Join operations          |
 | assignments | dueDate                | Single  | Date range queries       |
+
+
 
 ## Query Performance Analysis
 
@@ -29,6 +41,8 @@ Performance Optimizations
 | Find user by email                  | After        | 1          | 1          | 0.238181      | 0.219833      | 0.272792      |
 | Courses in category Cloud Computing | After        | 2          | 2          | 0.218014      | 0.206750      | 0.224708      |
 | Assignments due in next 14 days     | After        | 4          | 4          | 0.297264      | 0.256292      | 0.376792      |
+
+
 ## Optimization Plan Explanation  
 
 In this project, we tested three key queries **before and after optimization**. The main goal was to reduce execution time, minimize documents/keys scanned, and ensure efficient use of indexes.  
