@@ -258,6 +258,26 @@ This project demonstrates **MongoDB operations** organized into three main areas
 | enrollments | studentId, courseId    | Compound| Join operations          |
 | assignments | dueDate                | Single  | Date range queries       |
 
+## Query Performance Analysis
+
+### Before Optimization
+
+| Query Name                           | Optimization | Total Docs Examined | Total Keys Examined | Winning Plan       | Avg Time (ms) | Min Time (ms) | Max Time (ms) |
+|--------------------------------------|--------------|----------------------|----------------------|--------------------|---------------|---------------|---------------|
+| Find user by email                   | Before       | 1                    | 1                    | PROJECTION_SIMPLE  | 0.844875      | 0.413250      | 1.704750      |
+| Courses in category Cloud Computing  | Before       | 2                    | 2                    | PROJECTION_SIMPLE  | 0.486736      | 0.255875      | 0.879500      |
+| Assignments due in next 14 days      | Before       | 4                    | 4                    | PROJECTION_SIMPLE  | 0.238070      | 0.222125      | 0.259292      |
+
+---
+
+### After Optimization
+
+| Query Name                           | Optimization | Total Docs Examined | Total Keys Examined | Winning Plan       | Avg Time (ms) | Min Time (ms) | Max Time (ms) |
+|--------------------------------------|--------------|----------------------|----------------------|--------------------|---------------|---------------|---------------|
+| Find user by email                   | After        | 1                    | 1                    | PROJECTION_SIMPLE  | 0.238181      | 0.219833      | 0.272792      |
+| Courses in category Cloud Computing  | After        | 2                    | 2                    | PROJECTION_SIMPLE  | 0.218014      | 0.206750      | 0.224708      |
+| Assignments due in next 14 days      | After        | 4                    | 4                    | PROJECTION_SIMPLE  | 0.297264      | 0.256292      | 0.376792      |
+
 ## Project Structure
 ```
 mongodb-eduhub-project/
