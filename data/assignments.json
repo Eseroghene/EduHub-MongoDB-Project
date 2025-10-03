@@ -1,112 +1,112 @@
 [
     {
         "assignmentId": "ASM001",
-        "courseId": "CRS006",
+        "courseId": "CRS001",
         "title": "Assignment 1",
-        "description": "Explore and visualize trends in the provided dataset.",
-        "dueDate": "2025-10-14 03:51:48.504181",
-        "createdAt": "2025-10-01 03:51:48.504190",
-        "updatedAt": "2025-10-02 03:51:48.504192",
+        "description": "Perform data cleaning and preprocessing on the dataset.",
+        "dueDate": "2025-10-12 10:27:20.323518",
+        "createdAt": "2025-09-22 10:27:20.323532",
+        "updatedAt": "2025-10-03 10:27:20.323536",
         "maxScore": 100,
-        "_id": "68dde8c4f743684e0fe434b5"
+        "_id": "68df96f8f743684e0fe43510"
     },
     {
         "assignmentId": "ASM002",
-        "courseId": "CRS004",
+        "courseId": "CRS005",
         "title": "Assignment 2",
-        "description": "Implement an algorithm to solve the given problem.",
-        "dueDate": "2025-10-19 03:51:48.504196",
-        "createdAt": "2025-09-19 03:51:48.504198",
-        "updatedAt": "2025-10-02 03:51:48.504199",
+        "description": "Write a report on the findings of the market analysis.",
+        "dueDate": "2025-10-25 10:27:20.323543",
+        "createdAt": "2025-09-13 10:27:20.323546",
+        "updatedAt": "2025-10-03 10:27:20.323549",
         "maxScore": 100,
-        "_id": "68dde8c4f743684e0fe434b6"
+        "_id": "68df96f8f743684e0fe43511"
     },
     {
         "assignmentId": "ASM003",
-        "courseId": "CRS004",
+        "courseId": "CRS008",
         "title": "Assignment 3",
-        "description": "Analyze the given dataset and provide insights.",
-        "dueDate": "2025-10-31 03:51:48.504200",
-        "createdAt": "2025-09-28 03:51:48.504201",
-        "updatedAt": "2025-10-02 03:51:48.504202",
+        "description": "Implement an algorithm to solve the given problem.",
+        "dueDate": "2025-11-01 10:27:20.323552",
+        "createdAt": "2025-09-22 10:27:20.323554",
+        "updatedAt": "2025-10-03 10:27:20.323556",
         "maxScore": 100,
-        "_id": "68dde8c4f743684e0fe434b7"
+        "_id": "68df96f8f743684e0fe43512"
     },
     {
         "assignmentId": "ASM004",
-        "courseId": "CRS003",
+        "courseId": "CRS007",
         "title": "Assignment 4",
-        "description": "Build a dashboard using Power BI to visualize sales data.",
-        "dueDate": "2025-10-18 03:51:48.504204",
-        "createdAt": "2025-09-24 03:51:48.504205",
-        "updatedAt": "2025-10-02 03:51:48.504205",
+        "description": "Analyze the given dataset and provide insights.",
+        "dueDate": "2025-10-11 10:27:20.323559",
+        "createdAt": "2025-09-24 10:27:20.323561",
+        "updatedAt": "2025-10-03 10:27:20.323563",
         "maxScore": 100,
-        "_id": "68dde8c4f743684e0fe434b8"
+        "_id": "68df96f8f743684e0fe43513"
     },
     {
         "assignmentId": "ASM005",
-        "courseId": "CRS007",
+        "courseId": "CRS006",
         "title": "Assignment 5",
         "description": "Perform data cleaning and preprocessing on the dataset.",
-        "dueDate": "2025-10-29 03:51:48.504207",
-        "createdAt": "2025-09-30 03:51:48.504208",
-        "updatedAt": "2025-10-02 03:51:48.504209",
+        "dueDate": "2025-10-29 10:27:20.323566",
+        "createdAt": "2025-09-26 10:27:20.323568",
+        "updatedAt": "2025-10-03 10:27:20.323570",
         "maxScore": 100,
-        "_id": "68dde8c4f743684e0fe434b9"
+        "_id": "68df96f8f743684e0fe43514"
     },
     {
         "assignmentId": "ASM006",
-        "courseId": "CRS003",
+        "courseId": "CRS002",
         "title": "Assignment 6",
-        "description": "Write a report on the findings of the market analysis.",
-        "dueDate": "2025-10-08 03:51:48.504210",
-        "createdAt": "2025-09-16 03:51:48.504211",
-        "updatedAt": "2025-10-02 03:51:48.504212",
+        "description": "Prepare a presentation summarizing the key insights.",
+        "dueDate": "2025-10-14 10:27:20.323573",
+        "createdAt": "2025-09-15 10:27:20.323575",
+        "updatedAt": "2025-10-03 10:27:20.323577",
         "maxScore": 100,
-        "_id": "68dde8c4f743684e0fe434ba"
+        "_id": "68df96f8f743684e0fe43515"
     },
     {
         "assignmentId": "ASM007",
-        "courseId": "CRS008",
+        "courseId": "CRS007",
         "title": "Assignment 7",
-        "description": "Analyze the given dataset and provide insights.",
-        "dueDate": "2025-10-09 03:51:48.504213",
-        "createdAt": "2025-09-09 03:51:48.504214",
-        "updatedAt": "2025-10-02 03:51:48.504215",
+        "description": "Build a dashboard using Power BI to visualize sales data.",
+        "dueDate": "2025-10-17 10:27:20.323580",
+        "createdAt": "2025-09-23 10:27:20.323582",
+        "updatedAt": "2025-10-03 10:27:20.323584",
         "maxScore": 100,
-        "_id": "68dde8c4f743684e0fe434bb"
+        "_id": "68df96f8f743684e0fe43516"
     },
     {
         "assignmentId": "ASM008",
         "courseId": "CRS003",
         "title": "Assignment 8",
-        "description": "Implement an algorithm to solve the given problem.",
-        "dueDate": "2025-10-17 03:51:48.504216",
-        "createdAt": "2025-09-07 03:51:48.504217",
-        "updatedAt": "2025-10-02 03:51:48.504217",
+        "description": "Prepare a presentation summarizing the key insights.",
+        "dueDate": "2025-10-26 10:27:20.323589",
+        "createdAt": "2025-10-02 10:27:20.323591",
+        "updatedAt": "2025-10-03 10:27:20.323592",
         "maxScore": 100,
-        "_id": "68dde8c4f743684e0fe434bc"
+        "_id": "68df96f8f743684e0fe43517"
     },
     {
         "assignmentId": "ASM009",
-        "courseId": "CRS002",
+        "courseId": "CRS008",
         "title": "Assignment 9",
-        "description": "Build a dashboard using Power BI to visualize sales data.",
-        "dueDate": "2025-10-17 03:51:48.504219",
-        "createdAt": "2025-09-28 03:51:48.504220",
-        "updatedAt": "2025-10-02 03:51:48.504220",
+        "description": "Implement an algorithm to solve the given problem.",
+        "dueDate": "2025-10-18 10:27:20.323596",
+        "createdAt": "2025-09-30 10:27:20.323597",
+        "updatedAt": "2025-10-03 10:27:20.323599",
         "maxScore": 100,
-        "_id": "68dde8c4f743684e0fe434bd"
+        "_id": "68df96f8f743684e0fe43518"
     },
     {
         "assignmentId": "ASM010",
-        "courseId": "CRS006",
+        "courseId": "CRS003",
         "title": "Assignment 10",
-        "description": "Create a Python script to automate the task.",
-        "dueDate": "2025-10-08 03:51:48.504222",
-        "createdAt": "2025-09-25 03:51:48.504223",
-        "updatedAt": "2025-10-02 03:51:48.504224",
+        "description": "Explore and visualize trends in the provided dataset.",
+        "dueDate": "2025-10-23 10:27:20.323603",
+        "createdAt": "2025-09-10 10:27:20.323605",
+        "updatedAt": "2025-10-03 10:27:20.323607",
         "maxScore": 100,
-        "_id": "68dde8c4f743684e0fe434be"
+        "_id": "68df96f8f743684e0fe43519"
     }
 ]
