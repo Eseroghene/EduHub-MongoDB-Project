@@ -258,8 +258,8 @@ mongodb-eduhub-project/
 │
 ├── src/
 │   ├── eduhub_queries/
-│       ├── crud_operations.ipynb
-│       ├── advanced_queries.ipynb
+│       ├── CRUD operations.ipynb
+│       ├── Advanced_queries.ipynb
 │       └── index_performance.ipynb
 │              
 │
