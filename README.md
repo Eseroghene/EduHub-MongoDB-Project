@@ -1,16 +1,16 @@
-# EduHub-MongoDB-Project
+# MongoDB-EduHub-Project
 ## Table of Contents
 
 - [Project Overview](#project-overview)  
 - [Prerequisites](#prerequisites)  
 - [Installation & Setup](#installation--setup)  
 - [Usage](#usage)  
-- [Database Schema](#database-schema)  
+- [Database Schema Documentation](#database-schema-documentation)  
 - [Key Features Implemented](#key-features-implemented)  
 - [Performance Optimizations](#performance-optimizations)  
 - [Project Structure](#project-structure)  
 - [Challenges & Solutions](#challenges--solutions)  
-- [Contact](#contact)  
+- [License](#license)  
 
 ## Project Overview  
 
@@ -113,128 +113,138 @@ jupyter notebook notebooks/eduhub_mongodb_project.ipynb
 - Aggregation pipeline results  
 - Performance analysis with indexes
 
-## Database Schema  
+## Database Schema Documentation
 
-### Collections  
+### Users Collection
 
-**Users – Students and instructors**  
-```javascript
-{
-  "userId": "STU001",
-  "email": "student@email.com",
-  "firstName": "John",
-  "lastName": "Doe",
-  "role": "student",
-  "dateJoined": ISODate("2024-09-01"),
-  "isActive": true
-}
-```
-**Courses – Course catalog**  
-```javascript
-{
-  "courseId": "CS101",
-  "title": "Introduction to Python",
-  "instructorId": "INST001",
-  "category": "Programming",
-  "level": "beginner",
-  "price": 99.99,
-  "isPublished": True
-}
-```
-**Other Collections:** enrollments, lessons, assignments, submissions  
+| Field       | Type                | Required | Description / Purpose                        |
+|------------|-------------------|---------|---------------------------------------------|
+| userId     | string             | Yes     | Unique user identifier                       |
+| email      | string             | Yes     | User email, must follow email format        |
+| firstName  | string             | Yes     | User first name                              |
+| lastName   | string             | Yes     | User last name                               |
+| role       | enum (student, instructor) | Yes | User role                                   |
+| dateJoined | date               | Yes     | Date the user joined                         |
+| isActive   | boolean            | Yes     | Status of the user account                   |
+| profile    | object             | No      | Optional user profile                        |
+| profile.bio | string            | No      | Short bio about the user                     |
+| profile.avatar | string         | No      | URL to user's avatar                          |
+| profile.skills | array<string>   | No      | List of user skills                           |
 
-See the Jupyter Notebook (`notebooks/eduhub_mongodb_project.ipynb`) for complete schema details.
+---
+
+### Courses Collection
+
+| Field       | Type                      | Required | Description / Purpose                        |
+|------------|--------------------------|---------|---------------------------------------------|
+| courseId   | string                   | Yes     | Unique course identifier                     |
+| title      | string                   | Yes     | Course title                                 |
+| description| string                   | No      | Description of the course                    |
+| instructorId | string                 | Yes     | Reference to the instructor                  |
+| category   | string                   | No      | Course category                              |
+| level      | enum (beginner, intermediate, advanced) | Yes | Difficulty level of the course |
+| duration   | number                   | No      | Duration of course (hours)                   |
+| price      | number                   | No      | Course price                                 |
+| tags       | array<string>            | No      | Tags associated with the course              |
+| createdAt  | date                     | Yes     | Date course was created                      |
+| updatedAt  | date                     | No      | Date course was last updated                 |
+| isPublished| boolean                  | Yes     | Course published status                       |
+
+---
+
+### Enrollments Collection
+
+| Field       | Type                      | Required | Description / Purpose                        |
+|------------|--------------------------|---------|---------------------------------------------|
+| enrollmentId | string                  | Yes     | Unique enrollment identifier                 |
+| studentId   | string                   | Yes     | Reference to student                         |
+| courseId    | string                   | Yes     | Reference to course                          |
+| enrolledAt  | date                     | Yes     | Enrollment date                              |
+| status      | enum (active, completed, dropped) | Yes | Current enrollment status                     |
+| progress    | number (0-100)           | No      | Completion progress                           |
+| completedAt | date / null              | No      | Date of course completion                     |
+| lastAccessedAt | date                  | No      | Last access timestamp                         |
+
+---
+
+### Lessons Collection
+
+| Field       | Type                      | Required | Description / Purpose                        |
+|------------|--------------------------|---------|---------------------------------------------|
+| lessonId   | string                   | Yes     | Unique lesson identifier                      |
+| courseId   | string                   | Yes     | Reference to course                           |
+| title      | string                   | Yes     | Lesson title                                 |
+| content    | string                   | Yes     | Lesson content                               |
+| order      | number                   | Yes     | Lesson sequence/order                         |
+| resources  | array<string>            | No      | URLs or files associated with lesson         |
+| createdAt  | date                     | No      | Date lesson was created                       |
+| updatedAt  | date                     | No      | Date lesson was last updated                  |
+
+---
+
+### Assignments Collection
+
+| Field       | Type                      | Required | Description / Purpose                        |
+|------------|--------------------------|---------|---------------------------------------------|
+| assignmentId | string                  | Yes     | Unique assignment identifier                 |
+| courseId    | string                   | Yes     | Reference to course                          |
+| title       | string                   | Yes     | Assignment title                             |
+| description | string                   | Yes     | Assignment description                        |
+| dueDate     | date                     | Yes     | Assignment submission deadline               |
+| createdAt   | date                     | No      | Creation date                                |
+| updatedAt   | date                     | No      | Last updated date                             |
+| maxScore    | number                   | No      | Maximum grade score                           |
+
+---
+
+### Submissions Collection
+
+| Field       | Type                      | Required | Description / Purpose                        |
+|------------|--------------------------|---------|---------------------------------------------|
+| submissionId | string                  | Yes     | Unique submission identifier                 |
+| assignmentId | string                  | Yes     | Reference to assignment                      |
+| studentId   | string                   | Yes     | Reference to student                         |
+| courseId    | string                   | No      | Reference to course                          |
+| submittedAt | date                     | Yes     | Submission date                              |
+| content     | string                   | No      | Submission content                            |
+| fileUrl     | string                   | No      | URL to submitted file                         |
+| grade       | number / null            | No      | Assigned grade                                |
+| feedback    | string                   | No      | Feedback from instructor                      |
+| gradedAt    | date / null              | No      | Grading date                                  |
+| gradedBy    | string                   | No      | Instructor who graded                         |
+| status      | enum (submitted, graded, returned) | Yes | Submission status                             |
+
 
 ## Key Operations  
 
-### CRUD Operations  
+## Query Explanations
 
-**Create a New User:**  
-```python
-new_user = {
-    'userId': 'STU016',
-    'email': 'newstudent@email.com',
-    'firstName': 'Jane',
-    'lastName': 'Doe',
-    'role': 'student',
-    'dateJoined': datetime.now(),
-    'isActive': True
-}
-db.users.insert_one(new_user)
-```
-**Find Active Students:**
+This project demonstrates **MongoDB operations** organized into three main areas:
 
-```python
-students = db.users.find({'role': 'student', 'isActive': True})
-### Update User Profile
+1. **Basic CRUD Operations**  
+   - **Description:** Creating, reading, updating, and deleting documents in collections.  
+   - **Some Example Queries:**  
+     - Create a new course
+     - Update course details  
+     - Delete enrollment  
+   - **File Location:** `src/euhub_queries/CRUD operations.ipynb`  
 
-```python
-db.users.update_one(
-    {'userId': 'STU001'},
-    {'$set': {'profile.bio': 'Updated bio'}}
-)
-```
-**Delete Enrollment (Soft Delete);**
+2. **Advanced Queries and Aggregation**  
+   - **Description:** Complex data retrieval using aggregation pipelines, `$lookup`, `$group`, `$project`, and `$sort`.  
+   - **Some Example Queries:**  
+     - Average course rating per student  
+     - Top-performing students  
+     - Enrollment trends per month  
+   - **File Location:** `src/eduhub_queries/Advanced_queries.ipynb`  
 
-```python
-db.users.update_one(
-    {'userId': 'STU001'},
-    {'$set': {'isActive': False}}
-)
-```
-### Advanced Queries  
-**Find Courses in Price Range:**  
+3. **Indexing and Performance**  
+   - **Description:** Applying MongoDB indexes to optimize query performance, analyzing `explain()` plans, and measuring execution time before and after optimization.  
+   - **Some Example Queries:**  
+     - Index on `email` for fast user lookup  
+     - Compound index on `category` and `level` in courses  
+     - Performance comparison of queries before and after indexing  
+   - **File Location:** `src/eduhub_queries/index_performance.ipynb`  
 
-```python
-courses = db.courses.find({
-    'price': {'$gte': 50, '$lte': 200},
-    'isPublished': True
-})
-```
-**Search Courses by Title:**  
-
-```python
-courses = db.courses.find({
-    'title': {'$regex': 'python', '$options': 'i'}
-})
-```
-**Aggregation Examples – Enrollment Statistics by Category:**  
-
-```python
-pipeline = [
-    {'$lookup': {
-        'from': 'enrollments',
-        'localField': 'courseId',
-        'foreignField': 'courseId',
-        'as': 'enrollments'
-    }},
-    {'$group': {
-        '_id': '$category',
-        'totalEnrollments': {'$sum': {'$size': '$enrollments'}},
-        'avgPrice': {'$avg': '$price'}
-    }}
-]
-
-results = db.courses.aggregate(pipeline)
-```
-**Student Performance Analysis:**  
-
-```python
-pipeline = [
-    {'$lookup': {
-        'from': 'submissions',
-        'localField': 'userId',
-        'foreignField': 'studentId',
-        'as': 'submissions'
-    }},
-    {'$addFields': {
-        'avgGrade': {'$avg': '$submissions.grade'}
-    }},
-    {'$sort': {'avgGrade': -1}}
-]
-
-top_students = db.users.aggregate(pipeline)
-```
 ## Performance Optimizations
 
 **Indexes Created**
@@ -261,14 +271,19 @@ mongodb-eduhub-project/
 │   └── eduhub_mongodb_project.ipynb  
 │
 ├── src/
-│   ├── eduhub_queries.py            
+│   ├── eduhub_queries/
+│   │   ├── crud_operations.ipynb
+│   │   ├── advanced_queries.ipynb
+│   │   └── index_performance.ipynb
 │   └── data_generator.py            
 │
 ├── data/
-│   ├── sample_data.json             
 │   ├── users.json                   
 │   ├── courses.json                 
-│   └── schema_validation.json       
+│   ├── enrollments.json
+│   ├── lessons.json
+│   ├── assignments.json
+│   └── submissions.json
 │
 └── docs/
     ├── performance_analysis.md      
@@ -299,4 +314,7 @@ mongodb-eduhub-project/
 ### Challenge 4: Referential Integrity
 **Problem:** MongoDB doesn't enforce foreign key constraints like SQL databases.  
 **Solution:** Implemented application-level validation checks before insertions and deletions to maintain data consistency.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
