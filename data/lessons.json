@@ -1,305 +1,317 @@
 [
     {
         "lessonId": "LES001",
-        "courseId": "CRS002",
-        "title": "Building Your First Web Application",
-        "content": "We will build a simple web application step by step to demonstrate practical implementation.",
+        "courseId": "CRS003",
+        "title": "Version Control with Git and GitHub",
+        "content": "Version control is essential for collaboration; this lesson covers Git basics and workflows.",
         "order": 1,
         "resources": [
-            "http://www.dean-shannon.com/",
-            "https://www.young.com/"
+            "https://price.org/",
+            "http://oconnor.com/"
         ],
-        "createdAt": "2025-07-25 10:27:15.839644",
-        "updatedAt": "2025-10-03 10:27:15.839790",
-        "_id": "68df96f3f743684e0fe434f7"
+        "createdAt": "2025-07-10 07:27:00.421632",
+        "updatedAt": "2025-10-04 07:27:00.421648",
+        "_id": "68e0be34831dfb11c76f8ca8"
     },
     {
         "lessonId": "LES002",
         "courseId": "CRS005",
-        "title": "Building RESTful APIs with Flask",
-        "content": "Learn to design and build REST APIs using Flask in Python.",
+        "title": "Visualization with Matplotlib and Seaborn",
+        "content": "This lesson teaches visualization best practices with real datasets.",
         "order": 2,
-        "resources": [],
-        "createdAt": "2025-06-25 10:27:15.839802",
-        "updatedAt": "2025-10-03 10:27:15.839805",
-        "_id": "68df96f3f743684e0fe434f8"
+        "resources": [
+            "http://www.weber.com/"
+        ],
+        "createdAt": "2025-07-12 07:27:00.422057",
+        "updatedAt": "2025-10-04 07:27:00.422063",
+        "_id": "68e0be34831dfb11c76f8ca9"
     },
     {
         "lessonId": "LES003",
         "courseId": "CRS001",
-        "title": "Time Series Forecasting Fundamentals",
-        "content": "An introduction to time series data and forecasting methods.",
+        "title": "Advanced Functions and Modules in Python",
+        "content": "Deep dive into functions, modules, and best practices for writing clean code.",
         "order": 3,
         "resources": [],
-        "createdAt": "2025-08-27 10:27:15.839828",
-        "updatedAt": "2025-10-03 10:27:15.839829",
-        "_id": "68df96f3f743684e0fe434f9"
+        "createdAt": "2025-08-15 07:27:00.422071",
+        "updatedAt": "2025-10-04 07:27:00.422073",
+        "_id": "68e0be34831dfb11c76f8caa"
     },
     {
         "lessonId": "LES004",
         "courseId": "CRS008",
-        "title": "Creating Interactive Dashboards in Power BI",
-        "content": "Gain practical experience creating dashboards and reports in Power BI.",
+        "title": "Basics of Frontend Development with React",
+        "content": "Learn the basics of frontend web development with React.",
         "order": 4,
         "resources": [
-            "http://www.preston.org/"
+            "https://www.colon.com/",
+            "http://mcclure-thornton.biz/"
         ],
-        "createdAt": "2025-09-14 10:27:15.839931",
-        "updatedAt": "2025-10-03 10:27:15.839934",
-        "_id": "68df96f3f743684e0fe434fa"
+        "createdAt": "2025-07-29 07:27:00.422432",
+        "updatedAt": "2025-10-04 07:27:00.422436",
+        "_id": "68e0be34831dfb11c76f8cab"
     },
     {
         "lessonId": "LES005",
-        "courseId": "CRS002",
-        "title": "Deploying Machine Learning Models",
-        "content": "Explore techniques for deploying ML models to production environments.",
+        "courseId": "CRS001",
+        "title": "Understanding Data Structures in Python",
+        "content": "Students will learn how to structure data efficiently using arrays, lists, and dictionaries.",
         "order": 5,
         "resources": [],
-        "createdAt": "2025-08-01 10:27:15.839936",
-        "updatedAt": "2025-10-03 10:27:15.839937",
-        "_id": "68df96f3f743684e0fe434fb"
+        "createdAt": "2025-08-07 07:27:00.422441",
+        "updatedAt": "2025-10-04 07:27:00.422443",
+        "_id": "68e0be34831dfb11c76f8cac"
     },
     {
         "lessonId": "LES006",
-        "courseId": "CRS004",
+        "courseId": "CRS006",
         "title": "Deploying Machine Learning Models",
         "content": "Explore techniques for deploying ML models to production environments.",
         "order": 6,
-        "resources": [],
-        "createdAt": "2025-06-25 10:27:15.839939",
-        "updatedAt": "2025-10-03 10:27:15.839940",
-        "_id": "68df96f3f743684e0fe434fc"
+        "resources": [
+            "https://villanueva.com/"
+        ],
+        "createdAt": "2025-07-21 07:27:00.422780",
+        "updatedAt": "2025-10-04 07:27:00.422783",
+        "_id": "68e0be34831dfb11c76f8cad"
     },
     {
         "lessonId": "LES007",
-        "courseId": "CRS006",
-        "title": "Error Handling and Debugging Strategies",
-        "content": "Techniques for handling errors, debugging, and writing robust applications.",
+        "courseId": "CRS003",
+        "title": "Version Control with Git and GitHub",
+        "content": "Version control is essential for collaboration; this lesson covers Git basics and workflows.",
         "order": 7,
         "resources": [],
-        "createdAt": "2025-09-01 10:27:15.839941",
-        "updatedAt": "2025-10-03 10:27:15.839943",
-        "_id": "68df96f3f743684e0fe434fd"
+        "createdAt": "2025-10-03 07:27:00.422787",
+        "updatedAt": "2025-10-04 07:27:00.422789",
+        "_id": "68e0be34831dfb11c76f8cae"
     },
     {
         "lessonId": "LES008",
-        "courseId": "CRS005",
-        "title": "Introduction to Cloud Computing",
-        "content": "Introduction to cloud platforms and their use in modern applications.",
+        "courseId": "CRS004",
+        "title": "Building RESTful APIs with Flask",
+        "content": "Learn to design and build REST APIs using Flask in Python.",
         "order": 8,
-        "resources": [],
-        "createdAt": "2025-09-01 10:27:15.839944",
-        "updatedAt": "2025-10-03 10:27:15.839946",
-        "_id": "68df96f3f743684e0fe434fe"
+        "resources": [
+            "http://hawkins-baker.com/"
+        ],
+        "createdAt": "2025-09-04 07:27:00.423014",
+        "updatedAt": "2025-10-04 07:27:00.423017",
+        "_id": "68e0be34831dfb11c76f8caf"
     },
     {
         "lessonId": "LES009",
-        "courseId": "CRS001",
-        "title": "Introduction to Cloud Computing",
-        "content": "Introduction to cloud platforms and their use in modern applications.",
+        "courseId": "CRS008",
+        "title": "Basics of Frontend Development with React",
+        "content": "Learn the basics of frontend web development with React.",
         "order": 9,
         "resources": [],
-        "createdAt": "2025-08-18 10:27:15.839947",
-        "updatedAt": "2025-10-03 10:27:15.839948",
-        "_id": "68df96f3f743684e0fe434ff"
+        "createdAt": "2025-10-01 07:27:00.423020",
+        "updatedAt": "2025-10-04 07:27:00.423022",
+        "_id": "68e0be34831dfb11c76f8cb0"
     },
     {
         "lessonId": "LES010",
-        "courseId": "CRS007",
-        "title": "Introduction to Data Analytics Workflow",
-        "content": "This session provides a complete walkthrough of the analytics process.",
-        "order": 10,
-        "resources": [],
-        "createdAt": "2025-08-31 10:27:15.839950",
-        "updatedAt": "2025-10-03 10:27:15.839950",
-        "_id": "68df96f3f743684e0fe43500"
-    },
-    {
-        "lessonId": "LES011",
-        "courseId": "CRS007",
-        "title": "Creating Interactive Dashboards in Power BI",
-        "content": "Gain practical experience creating dashboards and reports in Power BI.",
-        "order": 11,
-        "resources": [
-            "https://www.campbell-cunningham.org/"
-        ],
-        "createdAt": "2025-08-08 10:27:15.840261",
-        "updatedAt": "2025-10-03 10:27:15.840265",
-        "_id": "68df96f3f743684e0fe43501"
-    },
-    {
-        "lessonId": "LES012",
         "courseId": "CRS006",
         "title": "Visualization with Matplotlib and Seaborn",
         "content": "This lesson teaches visualization best practices with real datasets.",
-        "order": 12,
+        "order": 10,
         "resources": [],
-        "createdAt": "2025-07-06 10:27:15.840269",
-        "updatedAt": "2025-10-03 10:27:15.840270",
-        "_id": "68df96f3f743684e0fe43502"
+        "createdAt": "2025-09-13 07:27:00.423026",
+        "updatedAt": "2025-10-04 07:27:00.423028",
+        "_id": "68e0be34831dfb11c76f8cb1"
     },
     {
-        "lessonId": "LES013",
+        "lessonId": "LES011",
         "courseId": "CRS001",
         "title": "Final Project and Capstone Overview",
         "content": "Overview of final project requirements and capstone preparation.",
-        "order": 13,
+        "order": 11,
         "resources": [
-            "https://www.jackson.com/",
-            "https://gould-owens.com/"
+            "http://burns.info/"
         ],
-        "createdAt": "2025-08-29 10:27:15.841050",
-        "updatedAt": "2025-10-03 10:27:15.841056",
-        "_id": "68df96f3f743684e0fe43503"
+        "createdAt": "2025-09-21 07:27:00.423165",
+        "updatedAt": "2025-10-04 07:27:00.423168",
+        "_id": "68e0be34831dfb11c76f8cb2"
+    },
+    {
+        "lessonId": "LES012",
+        "courseId": "CRS005",
+        "title": "Introduction to Cloud Computing",
+        "content": "Introduction to cloud platforms and their use in modern applications.",
+        "order": 12,
+        "resources": [
+            "http://jones-riley.com/",
+            "https://carroll-moore.com/"
+        ],
+        "createdAt": "2025-08-06 07:27:00.423632",
+        "updatedAt": "2025-10-04 07:27:00.423635",
+        "_id": "68e0be34831dfb11c76f8cb3"
+    },
+    {
+        "lessonId": "LES013",
+        "courseId": "CRS005",
+        "title": "Deploying Machine Learning Models",
+        "content": "Explore techniques for deploying ML models to production environments.",
+        "order": 13,
+        "resources": [],
+        "createdAt": "2025-09-01 07:27:00.423638",
+        "updatedAt": "2025-10-04 07:27:00.423640",
+        "_id": "68e0be34831dfb11c76f8cb4"
     },
     {
         "lessonId": "LES014",
-        "courseId": "CRS006",
-        "title": "Basics of Frontend Development with React",
-        "content": "Learn the basics of frontend web development with React.",
+        "courseId": "CRS004",
+        "title": "Deploying Machine Learning Models",
+        "content": "Explore techniques for deploying ML models to production environments.",
         "order": 14,
-        "resources": [],
-        "createdAt": "2025-08-14 10:27:15.841061",
-        "updatedAt": "2025-10-03 10:27:15.841063",
-        "_id": "68df96f3f743684e0fe43504"
+        "resources": [
+            "http://www.rivera-barton.com/",
+            "http://kelley.com/"
+        ],
+        "createdAt": "2025-09-27 07:27:00.424216",
+        "updatedAt": "2025-10-04 07:27:00.424219",
+        "_id": "68e0be34831dfb11c76f8cb5"
     },
     {
         "lessonId": "LES015",
-        "courseId": "CRS008",
-        "title": "Deploying Machine Learning Models",
-        "content": "Explore techniques for deploying ML models to production environments.",
+        "courseId": "CRS001",
+        "title": "Visualization with Matplotlib and Seaborn",
+        "content": "This lesson teaches visualization best practices with real datasets.",
         "order": 15,
         "resources": [],
-        "createdAt": "2025-07-02 10:27:15.841065",
-        "updatedAt": "2025-10-03 10:27:15.841066",
-        "_id": "68df96f3f743684e0fe43505"
+        "createdAt": "2025-09-26 07:27:00.424223",
+        "updatedAt": "2025-10-04 07:27:00.424224",
+        "_id": "68e0be34831dfb11c76f8cb6"
     },
     {
         "lessonId": "LES016",
         "courseId": "CRS007",
-        "title": "Introduction to Programming Concepts",
-        "content": "This lesson provides an overview of key concepts and sets the foundation for the course.",
+        "title": "Introduction to Cloud Computing",
+        "content": "Introduction to cloud platforms and their use in modern applications.",
         "order": 16,
         "resources": [
-            "http://www.lara.com/",
-            "https://faulkner.com/"
+            "http://www.franklin.org/",
+            "http://bryan.com/"
         ],
-        "createdAt": "2025-08-16 10:27:15.841516",
-        "updatedAt": "2025-10-03 10:27:15.841530",
-        "_id": "68df96f3f743684e0fe43506"
+        "createdAt": "2025-07-17 07:27:00.424667",
+        "updatedAt": "2025-10-04 07:27:00.424669",
+        "_id": "68e0be34831dfb11c76f8cb7"
     },
     {
         "lessonId": "LES017",
-        "courseId": "CRS002",
-        "title": "Introduction to Cloud Computing",
-        "content": "Introduction to cloud platforms and their use in modern applications.",
+        "courseId": "CRS007",
+        "title": "Version Control with Git and GitHub",
+        "content": "Version control is essential for collaboration; this lesson covers Git basics and workflows.",
         "order": 17,
-        "resources": [],
-        "createdAt": "2025-09-03 10:27:15.841544",
-        "updatedAt": "2025-10-03 10:27:15.841598",
-        "_id": "68df96f3f743684e0fe43507"
+        "resources": [
+            "http://www.medina.com/"
+        ],
+        "createdAt": "2025-08-24 07:27:00.424793",
+        "updatedAt": "2025-10-04 07:27:00.424796",
+        "_id": "68e0be34831dfb11c76f8cb8"
     },
     {
         "lessonId": "LES018",
-        "courseId": "CRS004",
-        "title": "Visualization with Matplotlib and Seaborn",
-        "content": "This lesson teaches visualization best practices with real datasets.",
+        "courseId": "CRS003",
+        "title": "Data Cleaning and Preparation Techniques",
+        "content": "Learn techniques to clean, prepare, and validate raw data before analysis.",
         "order": 18,
-        "resources": [],
-        "createdAt": "2025-07-19 10:27:15.841655",
-        "updatedAt": "2025-10-03 10:27:15.841659",
-        "_id": "68df96f3f743684e0fe43508"
+        "resources": [
+            "http://www.allen.com/"
+        ],
+        "createdAt": "2025-10-03 07:27:00.425117",
+        "updatedAt": "2025-10-04 07:27:00.425119",
+        "_id": "68e0be34831dfb11c76f8cb9"
     },
     {
         "lessonId": "LES019",
-        "courseId": "CRS005",
-        "title": "Advanced Functions and Modules in Python",
-        "content": "Deep dive into functions, modules, and best practices for writing clean code.",
+        "courseId": "CRS003",
+        "title": "Version Control with Git and GitHub",
+        "content": "Version control is essential for collaboration; this lesson covers Git basics and workflows.",
         "order": 19,
         "resources": [
-            "http://thompson.com/"
+            "http://smith-dorsey.net/"
         ],
-        "createdAt": "2025-07-25 10:27:15.841752",
-        "updatedAt": "2025-10-03 10:27:15.841756",
-        "_id": "68df96f3f743684e0fe43509"
+        "createdAt": "2025-07-16 07:27:00.425341",
+        "updatedAt": "2025-10-04 07:27:00.425344",
+        "_id": "68e0be34831dfb11c76f8cba"
     },
     {
         "lessonId": "LES020",
-        "courseId": "CRS006",
-        "title": "Introduction to Programming Concepts",
-        "content": "This lesson provides an overview of key concepts and sets the foundation for the course.",
+        "courseId": "CRS005",
+        "title": "Introduction to Cloud Computing",
+        "content": "Introduction to cloud platforms and their use in modern applications.",
         "order": 20,
         "resources": [
-            "http://www.gould.com/"
+            "https://www.johnson.org/",
+            "https://www.west.com/"
         ],
-        "createdAt": "2025-09-27 10:27:15.842311",
-        "updatedAt": "2025-10-03 10:27:15.842314",
-        "_id": "68df96f3f743684e0fe4350a"
+        "createdAt": "2025-09-21 07:27:00.426226",
+        "updatedAt": "2025-10-04 07:27:00.426234",
+        "_id": "68e0be34831dfb11c76f8cbb"
     },
     {
         "lessonId": "LES021",
         "courseId": "CRS004",
-        "title": "Introduction to Data Analytics Workflow",
-        "content": "This session provides a complete walkthrough of the analytics process.",
+        "title": "Error Handling and Debugging Strategies",
+        "content": "Techniques for handling errors, debugging, and writing robust applications.",
         "order": 21,
         "resources": [],
-        "createdAt": "2025-08-14 10:27:15.842317",
-        "updatedAt": "2025-10-03 10:27:15.842318",
-        "_id": "68df96f3f743684e0fe4350b"
+        "createdAt": "2025-09-02 07:27:00.426240",
+        "updatedAt": "2025-10-04 07:27:00.426242",
+        "_id": "68e0be34831dfb11c76f8cbc"
     },
     {
         "lessonId": "LES022",
-        "courseId": "CRS005",
-        "title": "Advanced Functions and Modules in Python",
-        "content": "Deep dive into functions, modules, and best practices for writing clean code.",
+        "courseId": "CRS008",
+        "title": "Building RESTful APIs with Flask",
+        "content": "Learn to design and build REST APIs using Flask in Python.",
         "order": 22,
-        "resources": [
-            "http://www.white.com/",
-            "http://www.michael.biz/"
-        ],
-        "createdAt": "2025-09-12 10:27:15.843490",
-        "updatedAt": "2025-10-03 10:27:15.843505",
-        "_id": "68df96f3f743684e0fe4350c"
+        "resources": [],
+        "createdAt": "2025-08-12 07:27:00.426246",
+        "updatedAt": "2025-10-04 07:27:00.426300",
+        "_id": "68e0be34831dfb11c76f8cbd"
     },
     {
         "lessonId": "LES023",
-        "courseId": "CRS006",
-        "title": "Deploying Machine Learning Models",
-        "content": "Explore techniques for deploying ML models to production environments.",
+        "courseId": "CRS002",
+        "title": "Visualization with Matplotlib and Seaborn",
+        "content": "This lesson teaches visualization best practices with real datasets.",
         "order": 23,
         "resources": [
-            "http://walter.com/",
-            "http://www.monroe.com/"
+            "http://roberts-brown.com/",
+            "http://hughes-chen.com/"
         ],
-        "createdAt": "2025-07-16 10:27:15.844560",
-        "updatedAt": "2025-10-03 10:27:15.844569",
-        "_id": "68df96f3f743684e0fe4350d"
+        "createdAt": "2025-09-13 07:27:00.427133",
+        "updatedAt": "2025-10-04 07:27:00.427140",
+        "_id": "68e0be34831dfb11c76f8cbe"
     },
     {
         "lessonId": "LES024",
-        "courseId": "CRS003",
-        "title": "Advanced Functions and Modules in Python",
-        "content": "Deep dive into functions, modules, and best practices for writing clean code.",
+        "courseId": "CRS005",
+        "title": "Basics of Frontend Development with React",
+        "content": "Learn the basics of frontend web development with React.",
         "order": 24,
         "resources": [
-            "https://www.bennett.org/",
-            "http://www.rose-stevenson.com/"
+            "http://www.atkins.net/"
         ],
-        "createdAt": "2025-07-23 10:27:15.844876",
-        "updatedAt": "2025-10-03 10:27:15.844879",
-        "_id": "68df96f3f743684e0fe4350e"
+        "createdAt": "2025-07-27 07:27:00.427746",
+        "updatedAt": "2025-10-04 07:27:00.427756",
+        "_id": "68e0be34831dfb11c76f8cbf"
     },
     {
         "lessonId": "LES025",
-        "courseId": "CRS004",
-        "title": "Introduction to Programming Concepts",
-        "content": "This lesson provides an overview of key concepts and sets the foundation for the course.",
+        "courseId": "CRS005",
+        "title": "Building Your First Web Application",
+        "content": "We will build a simple web application step by step to demonstrate practical implementation.",
         "order": 25,
         "resources": [
-            "http://thompson.com/"
+            "https://holmes.biz/",
+            "https://jimenez.biz/"
         ],
-        "createdAt": "2025-09-16 10:27:15.845025",
-        "updatedAt": "2025-10-03 10:27:15.845027",
-        "_id": "68df96f3f743684e0fe4350f"
+        "createdAt": "2025-08-13 07:27:00.428540",
+        "updatedAt": "2025-10-04 07:27:00.428551",
+        "_id": "68e0be34831dfb11c76f8cc0"
     }
 ]
